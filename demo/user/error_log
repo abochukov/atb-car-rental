@@ -1,0 +1,179 @@
+[19-Apr-2017 16:03:06 Europe/Sofia] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 18
+[19-Apr-2017 16:03:06 Europe/Sofia] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/usr/local/php7.0/lib/php') in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 18
+[19-Apr-2017 16:03:16 Europe/Sofia] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 18
+[19-Apr-2017 16:03:16 Europe/Sofia] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/usr/local/php7.0/lib/php') in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 18
+[19-Apr-2017 16:14:40 Europe/Sofia] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 19
+[19-Apr-2017 16:14:40 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/usr/local/php7.0/lib/php') in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 19
+[19-Apr-2017 16:14:41 Europe/Sofia] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 19
+[19-Apr-2017 16:14:41 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/usr/local/php7.0/lib/php') in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 19
+[19-Apr-2017 16:14:52 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/gomallgr/public_html/sting/includes/pharmacy.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 35
+[19-Apr-2017 16:17:11 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/gomallgr/public_html/sting/includes/pharmacy.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 34
+[19-Apr-2017 16:17:11 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/gomallgr/public_html/sting/includes/pharmacy.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 34
+[19-Apr-2017 16:17:12 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/gomallgr/public_html/sting/includes/pharmacy.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 34
+[19-Apr-2017 16:17:12 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/gomallgr/public_html/sting/includes/pharmacy.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 34
+[19-Apr-2017 16:17:26 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/gomallgr/public_html/sting/includes/pharmacy.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 36
+[19-Apr-2017 16:17:26 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/gomallgr/public_html/sting/includes/pharmacy.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 36
+[19-Apr-2017 16:17:27 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/gomallgr/public_html/sting/includes/pharmacy.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 36
+[19-Apr-2017 16:17:59 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_assoc() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:18:19 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_assoc() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:18:22 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_assoc() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:19:48 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_assoc() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:21:04 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:21:05 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:21:05 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:21:06 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:21:06 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:21:06 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:21:06 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:21:06 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:21:06 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:21:07 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:21:07 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:21:07 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:21:07 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:21:07 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:21:07 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:21:07 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:21:08 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:21:08 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:21:08 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:21:08 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 38
+[19-Apr-2017 16:22:59 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 41
+[19-Apr-2017 16:23:00 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 41
+[19-Apr-2017 16:23:00 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 41
+[19-Apr-2017 16:23:00 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 41
+[19-Apr-2017 16:23:01 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 41
+[19-Apr-2017 16:23:01 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 41
+[19-Apr-2017 16:23:01 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 41
+[19-Apr-2017 16:23:01 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 41
+[19-Apr-2017 16:23:01 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 41
+[19-Apr-2017 16:23:01 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/gomallgr/public_html/sting/includes/pharmacy.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 41
+[19-Apr-2017 16:29:19 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 46
+[19-Apr-2017 16:29:19 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 46
+[19-Apr-2017 16:29:20 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/gomallgr/public_html/sting/includes/pharmacy.php on line 46

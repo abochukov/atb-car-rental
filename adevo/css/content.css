@@ -1,0 +1,118 @@
+#content, .sidebar-headers {
+	padding: 0;
+	margin: 0;
+}
+
+#content {
+	width: 100%;
+}
+
+.navbar-header {
+	margin-top: -30px;
+}
+
+.sidebar-headers {
+	margin-left: -15px; 
+	margin-top: 14px;
+	width: 105%;
+	height: 40px;
+	background: #6d7fcc;
+}
+
+.sidebar-headers p {
+	color: white;
+	font-family: 'nunitolight'; 
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+.product_sub {
+	margin-left: 20px;
+}
+
+.product_sub p {
+	color: #003b8d;
+	font-family: 'nunitolight'; 
+}
+
+.small_icons {
+	margin: 0;
+  padding: 0;
+  list-style: none;
+  display:table;
+  border-spacing: 10px;
+  border-collapse: separate; /* Redundant */
+  color: #999;
+
+}
+
+.btn-group {
+  font-family: 'nunitolight'; 
+  background: transparent;
+  margin-right: 10px;
+}
+
+
+.btn-group button {
+  background: #e7ecf4;
+}
+
+.btn-group button i, .btn-group button span  {
+  color: #8da2ca;
+}
+
+ul.small_icons li {
+	min-width: 84px;
+  min-height: 20px;
+  vertical-align: middle;
+  display: table-cell;
+  color: #000;
+  margin-right: 14px;
+  padding-bottom: 12px;
+  max-width: 83px;
+  background: #e8ebf3;
+  font-family:'gafata';
+  padding-top: 12px;
+  line-height: 13px;
+  text-align:center;
+}
+
+ul.small_icons li a {
+	color: #999;
+	font-family: 'nunitolight'; 
+
+}
+
+ul.small_icons li ul{
+	list-style-type: none;
+	width: 200px;
+}
+
+ul.small_icons li ul li {
+	display: block;
+  background: none;  
+}
+
+ul.small_icons li ul li a {
+  color: green;
+}
+
+.star {
+    visibility:hidden;
+    font-size:20px;
+    cursor:pointer;
+
+}
+.star:before {
+   content: "\2606";
+   position: absolute;
+   visibility:visible;
+   margin-top:  -10px;
+}
+.star:checked:before {
+   content: "\2605";
+   position: absolute;
+   color: #ffcf00;
+
+}
+

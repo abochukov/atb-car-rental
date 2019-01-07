@@ -1,0 +1,358 @@
+.profile, #avatars, ul   {
+    margin: 0;
+    padding: 0;
+}
+
+.sting-logo {
+    float: left;
+    margin: 0;
+    padding: 0;
+    padding-left: 3%;
+}
+
+.gsk-logo {
+    float: right;
+    margin: 0;
+    padding: 0;
+    padding-right: 3%;
+}
+
+ul.navbar-right {
+    display:table-row;
+    padding-right: 10%;
+}
+
+ul.navbar-right li {
+    display: table-cell;        
+    list-style-type: none;        
+    vertical-align: middle;
+    padding: 0;
+}
+
+ul.navbar-right li a{
+    font-family: 'RobotoRegular';
+    text-transform: uppercase;
+    display:table-cell;
+    vertical-align: middle;
+    height:100%;
+    padding: 5px;
+}
+
+
+nav.navbar {
+    background: transparent;
+    border: none;
+}
+
+
+.profile {
+    width: 100%;
+    background: #f7f7f7;
+}
+
+.profile a {
+    text-decoration: none;
+
+}
+
+.profile img{
+    display: block;
+    margin: 0 auto;
+}
+
+#avatars {
+    position: absolute;
+    top: 10%;
+    left: 62%;
+}
+
+
+/*for upload page*/
+
+.profile_details_upload {
+    /*background: #f7f7f7;*/
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 10%;
+    margin-top: -5%;
+}
+
+.profile_details_upload .name {
+    width: 75%;
+    float: left;
+    text-align: right;
+    padding-right: 5%;
+    line-height: 90%;
+    font-family: 'RobotoRegular';
+    color: #4f4f4f;
+    line-height: 60%;
+}
+
+.profile_details_upload h3 {
+
+    
+}
+
+/* =============*/
+
+.profile_details {
+    /*background: #f7f7f7;*/
+    overflow: hidden;
+    width: 115%;
+    padding-bottom: 10%;
+}
+
+
+.name {
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-right: 5%;
+    line-height: 90%;
+    font-family: 'RobotoRegular';
+    color: #4f4f4f;
+}
+
+.name h4 {
+    margin-top: -10px;
+}
+
+.name img {
+    float: right;
+}
+
+
+.description {
+    width: 50%;
+    float: right;
+
+}
+
+.description span {
+    color: #f57723;
+}
+
+article {
+    padding-top: 20%;
+    margin: 0;
+    font-family: 'RobotoRegular';
+    /*color: #295aa5;*/
+    font-size: 26px;
+}
+
+article.upload {
+    padding: 0;
+
+}
+
+
+article span {
+    padding-left: 100px;
+    padding-top: 5%;
+}
+
+article p {
+    display: inline;
+}
+
+article p.vitrina {
+    margin-left: 0px;
+}
+
+article h2 {
+    display: inline;
+    color: #f57723;
+    font-size: 45px;
+    padding-left: 10px;
+}
+
+.targets_result {
+    margin: 0;
+    font-family: 'RobotoRegular';
+    /*color: #295aa5;*/
+    font-size: 26px;
+    padding-left: 5%;
+
+}
+
+.statistic {
+    position: absolute; padding-top: 20%; margin-left: 10%;
+}
+
+
+ul.results_header {
+    padding-left: 10%;
+
+}
+
+ul.results_header li {
+    float: left;
+    width: 23%;
+    color: #4f4f4f;
+    font-family: 'RobotoRegular';
+    font-size: 16px;
+    padding-left: 0;    
+}
+
+ul.results_header li.labels {
+    text-align: right;
+    padding-right: 40px;
+    border: none;
+    font-size: 16px;
+    width: 40%;
+}
+
+ul.results {
+    position: relative;
+    width: 100%;
+    clear: both;
+    margin-bottom: 20px;
+    padding-left: 10%;
+}
+
+ul.results li {
+    float: left;
+    border-left: 1px solid #4f4f4f;
+    width: 23%;
+    font-family: 'RobotoRegular';
+    font-size: 20px;
+    padding-left: 10px;
+    color: #f57723;
+}
+
+ul.results li.labels {
+    text-align: right;
+    color: #4f4f4f;
+    padding-right: 40px;
+    color: #295aa5;
+    border: none;
+    font-size: 16px;
+    width: 40%;
+}
+
+.footer {
+    background: #f25e22; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #f25e22 , #ffd231); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f25e22 , #ffd231); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f25e22 , #ffd231); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f25e22 , #ffd231); /* Standard syntax (must be last) */
+}
+
+/* chart 1 */
+
+
+.profile_raiting {
+    width: 100%;
+    background: #f7f7f7;
+    height: 100%;
+    position: relative;
+
+}
+
+ul.pr_r {
+    position: absolute;
+    top: 12%; left: 70%;
+    transform: translate(-50%,-50%);
+    
+}
+
+ ul.pr_r li{
+    padding-top: 10%;
+    
+    text-align: right;
+
+}
+
+ul.pr_r a{
+    font-family: 'RobotoRegular';
+    font-size: 18px;
+    color: #295aa5;
+}
+
+.chart1 {
+    
+}
+
+.chart1,.chart2, .chart3, .chart4, .chart5 {
+   display: none;
+}
+
+.raiting span {
+    font-family: 'RobotoRegular';
+    font-size: 27px;
+    color: #4f4f4f;
+    letter-spacing: 7px;
+    font-weight: 100;
+    padding-right: 40px;
+
+}
+
+ul.raiting_results {
+    margin: 10%;
+}
+
+ul.raiting_results li {
+    font-family: 'RobotoRegular';
+    font-size: 16px;
+    padding: 5px;
+    color: #3f6eb0;
+}
+
+
+ul.raiting_results li:nth-child(-n+3) {
+    color: #f57723;
+}
+
+ul.raiting_results li:nth-child(3n+3) {
+    /*padding-bottom: 20px;*/
+}
+
+
+
+@media (min-width: 480px) and  (max-width: 860px) {
+    .profile_details {
+        background: #f7f7f7;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .stat {
+        text-align: center;
+    }
+
+    img.statistic {
+        display: none;
+    }
+
+
+
+}
+
+@media (max-width: 480px) {
+
+    .profile_details {
+        width: 100%;
+    }
+
+    .name {     
+        float: right;      
+    }
+
+    .description {
+        width: 100%;
+        padding: 5%;
+        float: left;
+        clear: both;
+    }
+
+    .stat {
+        text-align: center;
+    }
+
+      .statistic {
+        display: none;
+    }
+
+}
+
+     

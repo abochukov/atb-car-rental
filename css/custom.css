@@ -1,0 +1,176 @@
+/*-- Created By Atanas Bochukov --*/
+/*
+.styled-select {	
+	
+	width:268px;
+	height:40px;	
+	color:#666;	
+	border:1px solid #eee;
+}
+*/
+/*
+.reservation-form-row div{
+	width: 32.6%;
+	float: left;
+	margin-right: 1%;
+} 
+
+.reservation-form-row div span{
+	font-size:1.2em;
+	color:#000;
+	  font-weight: 600;
+  text-transform: capitalize;
+	display:block;
+	padding:0 0 0.5em;
+}
+
+.reservation-form-row div input[type="text"] {
+	width:100%;
+	padding:1em;	
+	border:1px solid #EEE;
+	-webkit-appearance:none;
+	outline:none;
+	color:#777;
+	transition:border-color 0.4s;
+	-webkit-transition:border-color 0.4s;
+	-moz-transition:border-color 0.4s;
+	-o-transition:border-color 0.4s;
+	-ms-transition:border-color 0.4s;
+}
+
+
+.reservation-form-row div input[type="text"]:hover {	
+	color:#d4a258;	
+	border:1px solid #d4a258;
+} 
+*/
+ .selectBox {   	
+	width:100%;
+	height: 30px;	
+	line-height:28px;	
+	overflow: hidden;	
+	background: url('http://s24.postimg.org/lyhytocf5/dropdown.png') no-repeat right #FEFEFE;	
+	border: #ccc 1px solid;	
+	-webkit-border-radius: 3px;	
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0px 0px 10px 1px #FEFEFE;	
+	box-shadow: inset 0px 0px 10px 1px #FEFEFE;	
+	margin:0px;	
+	padding-left:5px;	
+	position: relative;	
+	z-index:100;  
+   -moz-appearance: none;
+   -webkit-appearance: none;
+	-ms-appearance: none;
+	 -o-appearance: none;
+	 font-family: 'Open Sans', sans-serif;	 
+}
+
+.selectBox select {	
+	margin:0px;	
+	padding:0px;	
+	opacity:0;	
+	filter:alpha(opacity=0);	
+	position:absolute;	
+	top:0;	
+	left:0;	
+	width:100%;	
+	height:100%;	
+	display:block;	
+	z-index:101;	
+}  
+.selectBox select:focus {    
+	outline:none;
+}
+
+.selectDefault, .selectBox option {   
+	font-family: 'Open Sans', sans-serif;  
+	font-size:14px;    
+}
+
+ .selectBox:hover, .contact-form-row .hour .selectBox:hover {
+	border-color:#d4a258;
+ }
+ 
+ .contact-form-row .hour .selectBox{
+	width:30%;
+	padding:1em;	
+	border:1px solid #eee;
+	-webkit-appearance:none;
+	outline:none;
+	color:#777;
+	transition:border-color 0.4s;
+	-webkit-transition:border-color 0.4s;
+	-moz-transition:border-color 0.4s;
+	-o-transition:border-color 0.4s;
+	-ms-transition:border-color 0.4s;
+}
+
+.rf .names, .mail, .phones, #sendDetails {
+	width:100%;
+	padding:5px;	
+	border:1px solid #eee;
+	-webkit-appearance:none;
+	outline:none;
+	color:#555;
+	transition:border-color 0.4s;
+	-webkit-transition:border-color 0.4s;
+	-moz-transition:border-color 0.4s;
+	-o-transition:border-color 0.4s;
+	-ms-transition:border-color 0.4s;
+	font-family: 'Open Sans', sans-serif;  
+}
+
+.rf:hover .names:hover, .mail:hover, .phones:hover, #sendDetails:hover {
+	border:1.5px solid #d4a258; 
+}
+
+/*  ==============
+Index
+================== */
+
+.style-me {
+	font-family: 'MyriadProRegular_0';
+	font-size: 16px;
+}
+
+.footer-grids {
+	font-family: 'MyriadProRegular_0';
+}
+
+.up-text a, .up-text p {
+
+}
+
+
+/*  ==============
+About
+================== */
+
+.aboutus1, .aboutus2, .aboutus3 {
+	font-family: 'MyriadProRegular_0';
+	font-size: 17px;
+}
+
+.aboutus3 p {
+	line-height: 150%;
+}
+
+
+/*  ==============
+Uslovia za naemane
+================== */
+
+.full-text {
+	font-family: 'MyriadProRegular_0';
+	font-size: 17px;
+	text-align: left;
+}
+
+.full-text ul {
+	
+}
+
+h3 {
+	font-family: 'MyriadProRegular_0';
+}

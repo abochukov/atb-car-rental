@@ -1,0 +1,36 @@
+
+.col-lg-4 img{    
+    border: 1px solid #666;
+}
+
+.col-lg-4 .caption {  
+  text-align: left;
+}
+
+.col-lg-4 .caption h5, .col-lg-4 .caption p {
+  padding-top: 10px;
+}
+
+.item {
+	width: 90%;
+	margin: 0 auto;
+	padding-top:15px; 
+	border: 1px solid orange;
+}
+
+.item img {
+	  display: block;
+  max-width: 100%; /* Nasko - 80% */
+  height: auto;
+}
+
+
+.item h5 {
+	text-align: left;
+	font-size: 18px;
+	padding-bottom: 30px;	
+}
+
+.item p {
+	padding-top: 20px;
+}

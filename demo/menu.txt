@@ -1,0 +1,5 @@
+     
+    <li><a href="user.php">Home</a></li>
+	<li><a href="profiles.php">Page One</a></li>
+	<li><a href="page2.php">Page Two</a></li>
+	<li><a href="gallery.php">Page Three</a></li>

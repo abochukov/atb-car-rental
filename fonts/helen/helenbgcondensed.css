@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'HelenBgCondensed';
+    src: url('helenbgcondensed.eot');
+    src: url('helenbgcondensed.eot') format('embedded-opentype'),
+         url('helenbgcondensed.woff') format('woff'),
+         url('helenbgcondensed.ttf') format('truetype'),
+         url('helenbgcondensed.svg#HelenBgCondensed') format('svg');
+}

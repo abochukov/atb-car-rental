@@ -1,0 +1,2 @@
+[21-Jul-2017 06:38:53 Europe/Sofia] PHP Warning:  move_uploaded_file(cache/065104f9c5cad39961c25925a8d0a1a2): failed to open stream: No such file or directory in /home/bgprvhqk/public_html/apps/sting/sting/admin/test3/upload.php on line 13
+[21-Jul-2017 06:38:53 Europe/Sofia] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpHoMy5J' to 'cache/065104f9c5cad39961c25925a8d0a1a2' in /home/bgprvhqk/public_html/apps/sting/sting/admin/test3/upload.php on line 13

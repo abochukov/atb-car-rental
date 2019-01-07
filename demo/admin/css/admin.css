@@ -1,0 +1,145 @@
+      #message {
+        font-family: 'RobotoRegular';
+        font-size: 16px; 
+        color: #e88440;
+      }
+      button {
+        padding:5px 15px; 
+        background:#3f6eb0;
+        color: #fff; 
+        border:0 none;
+        cursor:pointer;
+        -webkit-border-radius: 5px;
+        border-radius: 5px; 
+        width: 140px;
+      }
+      input[type=text], input[type=password] {
+        border-top: 1px solid #436eb0;
+        border-bottom: 1px solid #436eb0;
+        border-left: none;
+        border-right: none; 
+        height: 30px;
+        font-family: 'RobotoRegular';
+        width: 90%;
+        font-size: 15px;
+      }
+      ::-webkit-input-placeholder {
+        text-align: center;
+        font-family: 'RobotoRegular';
+        font-size: 15px;
+      }
+      :-moz-placeholder { /* Firefox 18- */
+        text-align: center;  
+        font-family: 'RobotoRegular';
+        font-size: 15px;
+      }
+      ::-moz-placeholder {  /* Firefox 19+ */
+        text-align: center;  
+        font-family: 'RobotoRegular';
+        font-size: 15px;
+      }
+      :-ms-input-placeholder {  
+        text-align: center; 
+        font-family: 'RobotoRegular';
+        font-size: 15px;
+      }
+      .borderless {
+        margin-top: -130%;
+      }
+      .borderless td, .borderless th {
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        border-bottom: 1px solid #3f6eb0 !important;
+      }
+    
+      .borderless tr {
+        margin-top: 20px;
+      }
+      .glyphicon  {
+        color: #e88440;
+      }
+      
+      label {
+        font-family: 'RobotoRegular';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: normal;
+        width: 380px;
+        color: #009be1;
+        text-align: left;
+        padding-top: 8px;
+              
+      }
+      input[type=checkbox]:not(old),
+      input[type=radio   ]:not(old) {
+          
+        width   : 27px; height:27px;
+        position:absolute;
+        margin  : 0;
+        padding : 0;
+        opacity : 0;  
+      }
+      input[type=checkbox]:not(old) + label,
+      input[type=radio   ]:not(old) + label {
+              
+        display      : inline-block;
+        margin-left  : 0px;
+        padding-left : 38px;
+        background   : url('../images/checkbtn.png') no-repeat 0 0;
+        line-height  : 18px;
+        height: 28px;
+        line-height: 100%;
+        color:#3f6eb0;
+      }
+      input[type=checkbox]:not(old):checked + label{
+        background-position : 0 -26px;
+      }
+      input[type=radio]:not(old):checked + label{
+        background-position : 0 -27px;
+      }
+          
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        /* IE10+ CSS styles go here */
+      label {
+         font-family: 'RobotoRegular';
+        font-size:16px;
+        font-style: normal;
+        font-weight: normal;
+        width: 300px;
+        color: #666;
+        text-align: left;
+      }
+            
+      input[type=checkbox]:not(old),
+      input[type=radio   ]:not(old) {
+            
+        width   : 27px; height:27px;
+        position:absolute;
+        margin  : 0;
+        padding : 0;
+        opacity : 0;  
+      }
+      
+      input[type=checkbox]:not(old) + label,
+      input[type=radio   ]:not(old) + label {
+                
+        display      : inline-block;
+        margin-left  : 0px;
+        padding-left : 68px;
+        background   : url('../images/checkbtn.png') no-repeat 0 0;
+        line-height  : 18px;
+        height:28px;
+        line-height: 100%;
+        color:#4d4d4d;
+      }
+      input[type=checkbox]:not(old):checked + label{
+        background-position : 0 -26px;
+      }
+      input[type=radio]:not(old):checked + label{
+        background-position : 0 -26px;
+      }
+  }
+  table tr:nth-child(even) {
+    background: #f1f1f1;
+  }

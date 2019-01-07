@@ -1,0 +1,9 @@
+[09-Jan-2018 13:11:54 Europe/Sofia] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/cookbgco/public_html/atb-rental.eu/adevo3/jeren/index.php on line 13
+[09-Jan-2018 13:11:54 Europe/Sofia] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/cookbgco/public_html/atb-rental.eu/adevo3/jeren/index.php on line 17
+[09-Jan-2018 13:11:54 Europe/Sofia] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/cookbgco/public_html/atb-rental.eu/adevo3/jeren/index.php on line 22
+[09-Jan-2018 13:12:18 Europe/Sofia] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/cookbgco/public_html/atb-rental.eu/adevo3/jeren/index.php on line 13
+[09-Jan-2018 13:12:18 Europe/Sofia] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/cookbgco/public_html/atb-rental.eu/adevo3/jeren/index.php on line 17
+[09-Jan-2018 13:12:18 Europe/Sofia] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/cookbgco/public_html/atb-rental.eu/adevo3/jeren/index.php on line 22
+[09-Jan-2018 13:16:13 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/cookbgco/public_html/atb-rental.eu/adevo3/jeren/index.php on line 157
+[09-Jan-2018 13:17:19 Europe/Sofia] PHP Parse error:  syntax error, unexpected '"</a></li>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/cookbgco/public_html/atb-rental.eu/adevo3/jeren/index.php on line 156
+[09-Jan-2018 13:17:20 Europe/Sofia] PHP Parse error:  syntax error, unexpected '"</a></li>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/cookbgco/public_html/atb-rental.eu/adevo3/jeren/index.php on line 156

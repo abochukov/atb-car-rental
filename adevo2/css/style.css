@@ -1,0 +1,226 @@
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video, img {
+	    margin: 0;
+	    padding: 0;
+	    border: 0;
+	    font-size: 100%;
+	    font: inherit;
+	    vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+	    display: block;
+	}
+	body {
+	    line-height: 1;
+	}
+	
+	blockquote, q {
+	    quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+	    content: '';
+	    content: none;
+	}
+	table {
+	    border-collapse: collapse;
+	    border-spacing: 0;
+	}
+
+
+	@media (min-width: 768px) {
+	  .navbar-nav.navbar-center {
+	    position: absolute;
+	    left: 50%;
+	    transform: translatex(-50%);
+	  }
+
+	  	.navbar-collapse ul.navbar-left {
+			position: absolute;
+			bottom: 0;
+		}
+
+		.navbar-right li {
+		
+			text-align: center;
+			width: 22%;
+			float: right;
+			margin-top: -5px
+		}
+
+		.navbar-right img{
+			width: 100%;
+		}
+
+	}
+
+	@media (max-width: 768px) {
+		.navbar {
+	    	margin-top: 20px;
+	  	}
+
+
+		.navbar-right li {
+			text-align: center;
+			width: 18%;
+			float: left;
+			margin-top: -5px;
+			display: block;
+		}
+
+		.navbar-right img{
+			width: 100%;
+		}
+
+	}
+
+	.navbar-default {
+		border: 1px solid green;
+	}
+
+	
+	.navbar-default .navbar-collapse ul.nav li a {
+		color: #003b8d;
+	}
+
+	.navbar-default .navbar-collapse ul.nav li a:hover {
+		color: #003b8d;
+	}
+
+
+	.navbar {
+		background: transparent;
+		border: 0;
+		width: 100%;		
+		padding-top: 10px;
+	}
+
+
+
+	.navbar-collapse ul.navbar-nav {
+		/*border: 1px solid red;*/
+		
+		bottom: 0;
+	}
+
+	.navbar-collapse ul:first-child {
+		font-family: 'nunitolight';		
+		font-size: 30px;
+		font-weight: bold;
+	}
+
+	.navbar-center {
+		font-family: 'nunitolight';		
+		z-index: 1;
+		
+	}
+
+	ul.navbar-center  > li {
+		font-size: 18px;
+		font-weight: 700;
+	}
+
+	ul.navbar-center  > li a {
+		color: red;
+	}
+
+	ul.navbar-center ul li:nth-child(2) {
+
+	}
+
+	ul.navbar-center li ul li a{ 
+		clear: both;
+		text-align: left;
+		color: #667dae;
+		font-size: 15px;
+		float: left;
+	}
+
+	.navbar a {
+		color: green;
+	}
+
+	.navbar-right {
+		
+	}
+
+	.navbar-default {
+		vertical-align: middle;
+	}
+
+	hr {
+		height: 5px;
+		 background: red; /* For browsers that do not support gradients */
+  		/* For Safari 5.1 to 6.0 */
+		  background: -webkit-linear-gradient(left,#00a6cb,#003c8f,#00a6cb,#003c8f,#00a6cb,#003c8f,#00a6cb);
+		  /* For Opera 11.1 to 12.0 */
+		  background: -o-linear-gradient(left,#00a6cb,#003c8f,#00a6cb,#003c8f,#00a6cb,#003c8f,#00a6cb);
+		  /* For Fx 3.6 to 15 */
+		  background: -moz-linear-gradient(left,#00a6cb,#003c8f,#00a6cb,#003c8f,#00a6cb,#003c8f,#00a6cb);
+		  /* Standard syntax */
+		  background: linear-gradient(to right, #00a6cb,#003c8f,#00a6cb,#003c8f,#00a6cb,#003c8f,#00a6cb); 
+	}
+
+	.wrapper {
+	    display: flex;
+	}
+
+	.inner-addon {
+ 		position: relative;
+	}
+
+	.inner-addon .glyphicon {
+	  position: absolute;
+	  padding: 10px;
+	  pointer-events: none;
+	  color: black;
+	}
+
+	.right-addon .glyphicon { right: 20px;}
+
+	.right-addon input { padding-right: 30px; }
+
+	input[type="text"] {
+		border-bottom: 1px solid #cdd4e0;
+	}
+
+	::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	    font-family: 'nunitolight';	
+	}
+	:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	   opacity:  1;
+	   font-family: 'nunitolight';	
+	}
+	::-moz-placeholder { /* Mozilla Firefox 19+ */
+	   opacity:  1;
+	   font-family: 'nunitolight';	
+	}
+	:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		font-family: 'nunitolight';	
+	}
+	::-ms-input-placeholder { /* Microsoft Edge */
+		font-family: 'nunitolight';	
+	}
+
+
+/*
+	Laptops and Displays
+	===============   */
+	
+@media (min-width: 1200px) {
+   
+}
+

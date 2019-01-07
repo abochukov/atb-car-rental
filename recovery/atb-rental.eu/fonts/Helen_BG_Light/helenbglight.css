@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'HelenBgLight';
+    src: url('helenbglight.eot');
+    src: url('helenbglight.eot') format('embedded-opentype'),
+         url('helenbglight.woff2') format('woff2'),
+         url('helenbglight.woff') format('woff'),
+         url('helenbglight.ttf') format('truetype'),
+         url('helenbglight.svg#HelenBgLight') format('svg');
+}

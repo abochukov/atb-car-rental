@@ -1,0 +1,27 @@
+[11-Jan-2016 11:21:32 Europe/Sofia] PHP Warning:  include(connection.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/cookbgco/public_html/atb-consult.eu/1/prices.php on line 9
+[11-Jan-2016 11:21:32 Europe/Sofia] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'connection.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cookbgco/public_html/atb-consult.eu/1/prices.php on line 9
+[11-Jan-2016 11:56:34 Europe/Sofia] PHP Warning:  include(connection.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/cookbgco/public_html/atb-consult.eu/1/save.php on line 4
+[11-Jan-2016 11:56:34 Europe/Sofia] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'connection.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cookbgco/public_html/atb-consult.eu/1/save.php on line 4
+[11-Jan-2016 11:56:34 Europe/Sofia] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'cookbgco'@'localhost' (using password: NO) in /home/cookbgco/public_html/atb-consult.eu/1/save.php on line 22
+[11-Jan-2016 11:56:34 Europe/Sofia] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/cookbgco/public_html/atb-consult.eu/1/save.php on line 22
+[11-Jan-2016 11:56:36 Europe/Sofia] PHP Warning:  include(connection.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/cookbgco/public_html/atb-consult.eu/1/save.php on line 4
+[11-Jan-2016 11:56:36 Europe/Sofia] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'connection.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cookbgco/public_html/atb-consult.eu/1/save.php on line 4
+[11-Jan-2016 11:56:36 Europe/Sofia] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'cookbgco'@'localhost' (using password: NO) in /home/cookbgco/public_html/atb-consult.eu/1/save.php on line 22
+[11-Jan-2016 11:56:36 Europe/Sofia] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/cookbgco/public_html/atb-consult.eu/1/save.php on line 22
+[11-Jan-2016 12:11:52 Europe/Sofia] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/cookbgco/public_html/atb-consult.eu/1/save.php on line 23
+[11-Jan-2016 12:14:51 Europe/Sofia] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/cookbgco/public_html/atb-consult.eu/1/save.php on line 24
+[11-Jan-2016 14:28:48 Europe/Sofia] PHP Parse error:  syntax error, unexpected '"' in /home/cookbgco/public_html/atb-consult.eu/1/save.php on line 34
+[13-Jan-2016 17:17:15 Europe/Sofia] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/cookbgco/public_html/atb-consult.eu/1/sendMail.php on line 1
+[13-Jan-2016 17:17:26 Europe/Sofia] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/cookbgco/public_html/atb-consult.eu/1/sendMail.php on line 1
+[13-Jan-2016 17:23:49 Europe/Sofia] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/cookbgco/public_html/atb-consult.eu/1/sendMail.php on line 1
+[13-Jan-2016 17:24:56 Europe/Sofia] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/cookbgco/public_html/atb-consult.eu/1/sendMail.php on line 1
+[13-Jan-2016 17:25:41 Europe/Sofia] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/cookbgco/public_html/atb-consult.eu/1/sendMail.php on line 2
+[04-Feb-2016 12:15:08 Europe/Sofia] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/cookbgco/public_html/atb-consult.eu/1/contact.php on line 33
+[04-Feb-2016 12:15:17 Europe/Sofia] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/cookbgco/public_html/atb-consult.eu/1/contact.php on line 33
+[04-Feb-2016 12:15:18 Europe/Sofia] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/cookbgco/public_html/atb-consult.eu/1/contact.php on line 33
+[04-Feb-2016 12:15:18 Europe/Sofia] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/cookbgco/public_html/atb-consult.eu/1/contact.php on line 33
+[04-Feb-2016 12:15:19 Europe/Sofia] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/cookbgco/public_html/atb-consult.eu/1/contact.php on line 33
+[04-Feb-2016 12:15:21 Europe/Sofia] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/cookbgco/public_html/atb-consult.eu/1/contact.php on line 33
+[04-Feb-2016 12:57:29 Europe/Sofia] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/cookbgco/public_html/atb-consult.eu/1/contact.php on line 21
+[04-Feb-2016 13:09:15 Europe/Sofia] PHP Parse error:  syntax error, unexpected T_IF in /home/cookbgco/public_html/atb-consult.eu/1/contact.php on line 29
+[04-Feb-2016 13:11:14 Europe/Sofia] PHP Parse error:  syntax error, unexpected T_IF in /home/cookbgco/public_html/atb-consult.eu/1/contact.php on line 29

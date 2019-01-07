@@ -1,0 +1,666 @@
+[28-Jun-2017 16:38:27 Europe/Sofia] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/gomallgr/public_html/sting/admin/welcome.php on line 11
+[28-Jun-2017 16:38:27 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/usr/local/php7.0/lib/php') in /home/gomallgr/public_html/sting/admin/welcome.php on line 11
+[28-Jun-2017 16:39:06 Europe/Sofia] PHP Warning:  include(includes/nav.php): failed to open stream: No such file or directory in /home/gomallgr/public_html/sting/admin/welcome.php on line 48
+[28-Jun-2017 16:39:06 Europe/Sofia] PHP Warning:  include(): Failed opening 'includes/nav.php' for inclusion (include_path='.:/usr/local/php7.0/lib/php') in /home/gomallgr/public_html/sting/admin/welcome.php on line 48
+[28-Jun-2017 16:39:06 Europe/Sofia] PHP Warning:  include(nav-jq.php): failed to open stream: No such file or directory in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:39:06 Europe/Sofia] PHP Warning:  include(): Failed opening 'nav-jq.php' for inclusion (include_path='.:/usr/local/php7.0/lib/php') in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:42:06 Europe/Sofia] PHP Warning:  include(nav-jq.php): failed to open stream: No such file or directory in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:42:06 Europe/Sofia] PHP Warning:  include(): Failed opening 'nav-jq.php' for inclusion (include_path='.:/usr/local/php7.0/lib/php') in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:42:07 Europe/Sofia] PHP Warning:  include(nav-jq.php): failed to open stream: No such file or directory in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:42:07 Europe/Sofia] PHP Warning:  include(): Failed opening 'nav-jq.php' for inclusion (include_path='.:/usr/local/php7.0/lib/php') in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:42:08 Europe/Sofia] PHP Warning:  include(nav-jq.php): failed to open stream: No such file or directory in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:42:08 Europe/Sofia] PHP Warning:  include(): Failed opening 'nav-jq.php' for inclusion (include_path='.:/usr/local/php7.0/lib/php') in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:42:08 Europe/Sofia] PHP Warning:  include(nav-jq.php): failed to open stream: No such file or directory in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:42:08 Europe/Sofia] PHP Warning:  include(): Failed opening 'nav-jq.php' for inclusion (include_path='.:/usr/local/php7.0/lib/php') in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:42:58 Europe/Sofia] PHP Warning:  include(nav-jq.php): failed to open stream: No such file or directory in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:42:58 Europe/Sofia] PHP Warning:  include(): Failed opening 'nav-jq.php' for inclusion (include_path='.:/usr/local/php7.0/lib/php') in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:42:58 Europe/Sofia] PHP Warning:  include(nav-jq.php): failed to open stream: No such file or directory in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:42:58 Europe/Sofia] PHP Warning:  include(): Failed opening 'nav-jq.php' for inclusion (include_path='.:/usr/local/php7.0/lib/php') in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:42:59 Europe/Sofia] PHP Warning:  include(nav-jq.php): failed to open stream: No such file or directory in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:42:59 Europe/Sofia] PHP Warning:  include(): Failed opening 'nav-jq.php' for inclusion (include_path='.:/usr/local/php7.0/lib/php') in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:43:34 Europe/Sofia] PHP Warning:  include(nav-jq.php): failed to open stream: No such file or directory in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:43:34 Europe/Sofia] PHP Warning:  include(): Failed opening 'nav-jq.php' for inclusion (include_path='.:/usr/local/php7.0/lib/php') in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:43:35 Europe/Sofia] PHP Warning:  include(nav-jq.php): failed to open stream: No such file or directory in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:43:35 Europe/Sofia] PHP Warning:  include(): Failed opening 'nav-jq.php' for inclusion (include_path='.:/usr/local/php7.0/lib/php') in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:43:35 Europe/Sofia] PHP Warning:  include(nav-jq.php): failed to open stream: No such file or directory in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[28-Jun-2017 16:43:35 Europe/Sofia] PHP Warning:  include(): Failed opening 'nav-jq.php' for inclusion (include_path='.:/usr/local/php7.0/lib/php') in /home/gomallgr/public_html/sting/admin/welcome.php on line 49
+[29-Jun-2017 17:01:28 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/gomallgr/public_html/sting/admin/edit_profile.php on line 16
+[29-Jun-2017 17:01:28 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gomallgr/public_html/sting/admin/edit_profile.php on line 171
+[04-Jul-2017 14:24:42 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gomallgr_manager'@'localhost' (using password: YES) in /home/bgprvhqk/public_html/apps/sting/sting/admin/config.php on line 3
+[04-Jul-2017 14:26:20 Europe/Sofia] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/config.php on line 4
+[04-Jul-2017 14:26:20 Europe/Sofia] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/config.php on line 5
+[04-Jul-2017 14:37:43 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 285
+[04-Jul-2017 14:37:44 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 285
+[20-Jul-2017 15:50:46 Europe/Sofia] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile_save.php on line 22
+[20-Jul-2017 15:55:33 Europe/Sofia] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile_save.php on line 23
+[20-Jul-2017 15:56:53 Europe/Sofia] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile_save.php on line 23
+[20-Jul-2017 15:57:27 Europe/Sofia] PHP Warning:  mysql_query(): Access denied for user 'bgprvhqk'@'localhost' (using password: NO) in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile_save.php on line 24
+[20-Jul-2017 15:57:27 Europe/Sofia] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile_save.php on line 24
+[20-Jul-2017 15:57:47 Europe/Sofia] PHP Warning:  mysql_query(): Access denied for user 'bgprvhqk'@'localhost' (using password: NO) in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile_save.php on line 24
+[20-Jul-2017 15:57:47 Europe/Sofia] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile_save.php on line 24
+[20-Jul-2017 15:58:31 Europe/Sofia] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile_save.php on line 24
+[20-Jul-2017 15:58:36 Europe/Sofia] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile_save.php on line 24
+[20-Jul-2017 15:59:13 Europe/Sofia] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile_save.php on line 24
+[20-Jul-2017 15:59:35 Europe/Sofia] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile_save.php on line 24
+[20-Jul-2017 16:02:11 Europe/Sofia] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile_save.php on line 24
+[20-Jul-2017 16:03:36 Europe/Sofia] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile_save.php on line 25
+[20-Jul-2017 16:04:12 Europe/Sofia] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile_save.php on line 25
+[20-Jul-2017 16:04:15 Europe/Sofia] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile_save.php on line 25
+[20-Jul-2017 16:08:50 Europe/Sofia] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile_save.php on line 25
+[21-Jul-2017 08:31:22 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 201
+[21-Jul-2017 09:27:14 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 284
+[21-Jul-2017 09:27:52 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 284
+[21-Jul-2017 09:28:08 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 284
+[24-Jul-2017 10:07:14 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 284
+[24-Jul-2017 10:07:17 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 284
+[24-Jul-2017 10:07:30 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 284
+[24-Jul-2017 10:51:13 Europe/Sofia] PHP Warning:  move_uploaded_file(admin/cache/01f3b51b85dea04ae63e35301bb43cef): failed to open stream: No such file or directory in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 280
+[24-Jul-2017 10:51:13 Europe/Sofia] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpFDMNp7' to 'admin/cache/01f3b51b85dea04ae63e35301bb43cef' in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 280
+[24-Jul-2017 10:51:24 Europe/Sofia] PHP Warning:  move_uploaded_file(admin/cache/d645a83f45035e43393e6bd7decedef4): failed to open stream: No such file or directory in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 280
+[24-Jul-2017 10:51:24 Europe/Sofia] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpFEm6nN' to 'admin/cache/d645a83f45035e43393e6bd7decedef4' in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 280
+[24-Jul-2017 11:29:48 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 238
+[24-Jul-2017 11:29:48 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 238
+[24-Jul-2017 11:29:48 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 238
+[24-Jul-2017 11:29:48 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 238
+[24-Jul-2017 11:29:49 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 238
+[24-Jul-2017 11:29:49 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 238
+[24-Jul-2017 11:29:49 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 238
+[24-Jul-2017 11:29:49 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 238
+[24-Jul-2017 13:16:07 Europe/Sofia] PHP Warning:  password_verify() expects exactly 2 parameters, 1 given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 208
+[24-Jul-2017 13:16:30 Europe/Sofia] PHP Warning:  password_verify() expects exactly 2 parameters, 1 given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 208
+[24-Jul-2017 13:16:31 Europe/Sofia] PHP Warning:  password_verify() expects exactly 2 parameters, 1 given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 208
+[24-Jul-2017 13:16:31 Europe/Sofia] PHP Warning:  password_verify() expects exactly 2 parameters, 1 given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 208
+[24-Jul-2017 13:16:31 Europe/Sofia] PHP Warning:  password_verify() expects exactly 2 parameters, 1 given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 208
+[24-Jul-2017 13:16:31 Europe/Sofia] PHP Warning:  password_verify() expects exactly 2 parameters, 1 given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 208
+[24-Jul-2017 13:16:32 Europe/Sofia] PHP Warning:  password_verify() expects exactly 2 parameters, 1 given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 208
+[24-Jul-2017 13:16:32 Europe/Sofia] PHP Warning:  password_verify() expects exactly 2 parameters, 1 given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 208
+[24-Jul-2017 13:16:32 Europe/Sofia] PHP Warning:  password_verify() expects exactly 2 parameters, 1 given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 208
+[24-Jul-2017 13:16:32 Europe/Sofia] PHP Warning:  password_verify() expects exactly 2 parameters, 1 given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 208
+[24-Jul-2017 15:01:44 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:01:45 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:01:45 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:00 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:00 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:00 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:01 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:01 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:01 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:01 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:01 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:01 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:53 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:54 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:54 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:54 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:54 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:55 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:55 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:55 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:55 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:55 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:55 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:02:56 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 389
+[24-Jul-2017 15:05:48 Europe/Sofia] PHP Parse error:  syntax error, unexpected '/' in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 397
+[24-Jul-2017 15:05:49 Europe/Sofia] PHP Parse error:  syntax error, unexpected '/' in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 397
+[24-Jul-2017 15:05:49 Europe/Sofia] PHP Parse error:  syntax error, unexpected '/' in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 397
+[25-Jul-2017 11:15:17 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 142
+[25-Jul-2017 11:15:18 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 142
+[25-Jul-2017 11:16:53 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 145
+[25-Jul-2017 11:16:53 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 145
+[25-Jul-2017 11:16:53 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 145
+[25-Jul-2017 11:20:58 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 505
+[25-Jul-2017 11:20:58 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 505
+[25-Jul-2017 11:20:58 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 505
+[25-Jul-2017 11:21:12 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 505
+[25-Jul-2017 11:21:12 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 505
+[25-Jul-2017 11:21:12 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 505
+[25-Jul-2017 11:21:12 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 505
+[25-Jul-2017 13:21:56 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 57
+[25-Jul-2017 13:21:57 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 57
+[25-Jul-2017 15:03:59 Europe/Sofia] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 440
+[25-Jul-2017 15:03:59 Europe/Sofia] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 440
+[25-Jul-2017 15:04:02 Europe/Sofia] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 440
+[25-Jul-2017 15:04:02 Europe/Sofia] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 440
+[25-Jul-2017 15:43:01 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/target_save.php on line 187
+[25-Jul-2017 15:43:38 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/target_save.php on line 187
+[25-Jul-2017 15:43:46 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/target_save.php on line 187
+[25-Jul-2017 15:45:10 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/target_save.php on line 187
+[25-Jul-2017 15:45:35 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/target_save.php on line 95
+[25-Jul-2017 15:46:27 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/target_save.php on line 95
+[25-Jul-2017 15:46:31 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/target_save.php on line 95
+[25-Jul-2017 15:47:39 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/target_save.php on line 187
+[25-Jul-2017 15:48:09 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/target_save.php on line 147
+[25-Jul-2017 15:48:23 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/target_save.php on line 147
+[25-Jul-2017 15:48:51 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/target_save.php on line 187
+[25-Jul-2017 17:30:12 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 507
+[25-Jul-2017 17:30:13 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 507
+[25-Jul-2017 17:30:13 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 507
+[25-Jul-2017 17:31:01 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 507
+[25-Jul-2017 17:31:01 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 507
+[25-Jul-2017 17:31:01 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 507
+[25-Jul-2017 17:31:13 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 507
+[25-Jul-2017 17:31:36 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 507
+[25-Jul-2017 17:31:41 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 507
+[25-Jul-2017 17:47:49 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 473
+[25-Jul-2017 17:47:49 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 486
+[25-Jul-2017 17:47:49 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 498
+[25-Jul-2017 17:47:49 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 514
+[25-Jul-2017 17:47:50 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 473
+[25-Jul-2017 17:47:50 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 486
+[25-Jul-2017 17:47:50 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 498
+[25-Jul-2017 17:47:50 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 514
+[25-Jul-2017 17:47:51 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 473
+[25-Jul-2017 17:47:51 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 486
+[25-Jul-2017 17:47:51 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 498
+[25-Jul-2017 17:47:51 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 514
+[25-Jul-2017 17:48:00 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 473
+[25-Jul-2017 17:48:00 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 486
+[25-Jul-2017 17:48:00 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 498
+[25-Jul-2017 17:48:00 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 514
+[25-Jul-2017 17:48:02 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 473
+[25-Jul-2017 17:48:02 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 486
+[25-Jul-2017 17:48:02 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 498
+[25-Jul-2017 17:48:02 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 514
+[25-Jul-2017 17:48:11 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 473
+[25-Jul-2017 17:48:11 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 486
+[25-Jul-2017 17:48:11 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 498
+[25-Jul-2017 17:48:11 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 514
+[26-Jul-2017 07:48:53 Europe/Sofia] PHP Parse error:  syntax error, unexpected '{' in /home/bgprvhqk/public_html/apps/sting/sting/admin/register_profile.php on line 51
+[26-Jul-2017 09:22:28 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 473
+[26-Jul-2017 09:22:30 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 473
+[26-Jul-2017 09:23:11 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 486
+[26-Jul-2017 09:23:11 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 498
+[26-Jul-2017 09:23:11 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 514
+[26-Jul-2017 09:23:11 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 527
+[26-Jul-2017 09:23:12 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 486
+[26-Jul-2017 09:23:12 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 498
+[26-Jul-2017 09:23:12 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 514
+[26-Jul-2017 09:23:12 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 527
+[26-Jul-2017 09:23:22 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 498
+[26-Jul-2017 09:23:22 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 514
+[26-Jul-2017 09:23:22 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 527
+[31-Jul-2017 10:57:19 Europe/Sofia] PHP Parse error:  syntax error, unexpected '/' in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 267
+[31-Jul-2017 11:47:31 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 305
+[31-Jul-2017 11:47:32 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 305
+[31-Jul-2017 11:47:49 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 305
+[31-Jul-2017 11:47:49 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 305
+[31-Jul-2017 11:48:09 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 305
+[31-Jul-2017 11:48:24 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 305
+[31-Jul-2017 11:48:24 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 305
+[31-Jul-2017 16:26:03 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 228
+[31-Jul-2017 16:26:03 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 238
+[31-Jul-2017 16:26:03 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 247
+[31-Jul-2017 16:28:30 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 228
+[31-Jul-2017 16:28:30 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 238
+[31-Jul-2017 16:28:30 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 247
+[31-Jul-2017 16:28:30 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 228
+[31-Jul-2017 16:28:30 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 238
+[31-Jul-2017 16:28:30 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 247
+[31-Jul-2017 16:28:30 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 228
+[31-Jul-2017 16:28:30 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 238
+[31-Jul-2017 16:28:30 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 247
+[31-Jul-2017 16:29:41 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 228
+[31-Jul-2017 16:29:41 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 238
+[31-Jul-2017 16:29:41 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 247
+[31-Jul-2017 16:29:42 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 228
+[31-Jul-2017 16:29:42 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 238
+[31-Jul-2017 16:29:42 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 247
+[31-Jul-2017 16:31:22 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 228
+[31-Jul-2017 16:31:22 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 238
+[31-Jul-2017 16:31:22 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 247
+[31-Jul-2017 16:32:27 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 228
+[31-Jul-2017 16:32:27 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 238
+[31-Jul-2017 16:32:27 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 247
+[31-Jul-2017 16:32:27 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 228
+[31-Jul-2017 16:32:27 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 238
+[31-Jul-2017 16:32:27 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 247
+[31-Jul-2017 16:32:28 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 228
+[31-Jul-2017 16:32:28 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 238
+[31-Jul-2017 16:32:28 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 247
+[31-Jul-2017 16:33:54 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 228
+[31-Jul-2017 16:33:54 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 238
+[31-Jul-2017 16:33:54 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 247
+[31-Jul-2017 17:11:33 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 228
+[31-Jul-2017 17:11:33 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 238
+[31-Jul-2017 17:11:33 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 247
+[01-Aug-2017 08:30:17 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharm.php on line 27
+[01-Aug-2017 08:30:17 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharm.php on line 28
+[01-Aug-2017 08:42:46 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharm.php on line 69
+[01-Aug-2017 08:49:00 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharm.php on line 70
+[01-Aug-2017 09:01:26 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharm.php on line 80
+[01-Aug-2017 10:02:36 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharm.php on line 118
+[01-Aug-2017 11:43:28 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy_search.php on line 41
+[01-Aug-2017 11:43:28 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy_search.php on line 41
+[01-Aug-2017 11:43:30 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy_search.php on line 41
+[01-Aug-2017 11:43:30 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy_search.php on line 41
+[01-Aug-2017 11:52:14 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 123
+[01-Aug-2017 11:52:14 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 418
+[01-Aug-2017 11:52:14 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 432
+[01-Aug-2017 11:52:14 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 445
+[01-Aug-2017 11:52:14 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 461
+[01-Aug-2017 11:52:14 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 474
+[01-Aug-2017 11:52:39 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 123
+[01-Aug-2017 11:52:39 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 418
+[01-Aug-2017 11:52:39 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 432
+[01-Aug-2017 11:52:39 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 445
+[01-Aug-2017 11:52:39 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 461
+[01-Aug-2017 11:52:39 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 474
+[01-Aug-2017 11:52:40 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 124
+[01-Aug-2017 11:52:40 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 419
+[01-Aug-2017 11:52:40 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 433
+[01-Aug-2017 11:52:40 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 446
+[01-Aug-2017 11:52:40 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 462
+[01-Aug-2017 11:52:40 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 475
+[01-Aug-2017 11:52:41 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 124
+[01-Aug-2017 11:52:41 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 419
+[01-Aug-2017 11:52:41 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 433
+[01-Aug-2017 11:52:41 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 446
+[01-Aug-2017 11:52:41 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 462
+[01-Aug-2017 11:52:41 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 475
+[01-Aug-2017 11:52:41 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 124
+[01-Aug-2017 11:52:41 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 419
+[01-Aug-2017 11:52:41 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 433
+[01-Aug-2017 11:52:41 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 446
+[01-Aug-2017 11:52:41 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 462
+[01-Aug-2017 11:52:41 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 475
+[01-Aug-2017 11:56:25 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 312
+[01-Aug-2017 11:56:39 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 312
+[01-Aug-2017 11:58:35 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 229
+[01-Aug-2017 11:58:36 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_pharm.php on line 229
+[01-Aug-2017 16:10:18 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 252
+[01-Aug-2017 16:10:19 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 252
+[01-Aug-2017 16:10:28 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 252
+[01-Aug-2017 16:28:32 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 236
+[01-Aug-2017 16:28:32 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 236
+[01-Aug-2017 16:38:12 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 232
+[01-Aug-2017 16:38:13 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 232
+[01-Aug-2017 16:38:26 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 232
+[01-Aug-2017 16:38:26 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 232
+[01-Aug-2017 16:38:27 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 232
+[01-Aug-2017 16:38:39 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 232
+[01-Aug-2017 16:38:39 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 232
+[01-Aug-2017 16:38:40 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 232
+[01-Aug-2017 17:38:32 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'checked' (T_STRING), expecting ',' or ';' in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 252
+[01-Aug-2017 17:38:33 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'checked' (T_STRING), expecting ',' or ';' in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 252
+[01-Aug-2017 17:38:44 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'checked' (T_STRING), expecting ',' or ';' in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 252
+[01-Aug-2017 17:46:32 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 345
+[01-Aug-2017 17:46:32 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 345
+[01-Aug-2017 17:46:40 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 345
+[01-Aug-2017 17:49:33 Europe/Sofia] PHP Parse error:  syntax error, unexpected '{' in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 279
+[01-Aug-2017 17:49:33 Europe/Sofia] PHP Parse error:  syntax error, unexpected '{' in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 279
+[01-Aug-2017 18:01:07 Europe/Sofia] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 253
+[01-Aug-2017 18:01:08 Europe/Sofia] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 253
+[01-Aug-2017 18:04:19 Europe/Sofia] PHP Parse error:  syntax error, unexpected '.' in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 252
+[01-Aug-2017 18:04:19 Europe/Sofia] PHP Parse error:  syntax error, unexpected '.' in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 252
+[02-Aug-2017 08:09:37 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pictures.php on line 220
+[02-Aug-2017 08:09:37 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pictures.php on line 243
+[02-Aug-2017 08:09:37 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pictures.php on line 259
+[02-Aug-2017 08:09:37 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pictures.php on line 275
+[02-Aug-2017 08:09:37 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pictures.php on line 292
+[02-Aug-2017 08:09:37 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pictures.php on line 308
+[02-Aug-2017 08:10:23 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pictures.php on line 220
+[02-Aug-2017 08:10:31 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pictures.php on line 220
+[02-Aug-2017 08:10:31 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pictures.php on line 219
+[02-Aug-2017 08:10:32 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pictures.php on line 219
+[02-Aug-2017 08:30:09 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'id' (T_STRING), expecting ',' or ';' in /home/bgprvhqk/public_html/apps/sting/sting/admin/pictures.php on line 250
+[02-Aug-2017 08:30:10 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'id' (T_STRING), expecting ',' or ';' in /home/bgprvhqk/public_html/apps/sting/sting/admin/pictures.php on line 250
+[02-Aug-2017 09:29:56 Europe/Sofia] PHP Parse error:  syntax error, unexpected '$sql_city' (T_VARIABLE), expecting ',' or ';' in /home/bgprvhqk/public_html/apps/sting/sting/admin/pictures.php on line 271
+[02-Aug-2017 09:29:56 Europe/Sofia] PHP Parse error:  syntax error, unexpected '$sql_city' (T_VARIABLE), expecting ',' or ';' in /home/bgprvhqk/public_html/apps/sting/sting/admin/pictures.php on line 271
+[02-Aug-2017 11:40:34 Europe/Sofia] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, object given in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 347
+[02-Aug-2017 11:40:56 Europe/Sofia] PHP Fatal error:  Call to a member function getActiveSheet() on null in /home/bgprvhqk/public_html/apps/sting/sting/admin/register2.php on line 350
+[02-Aug-2017 11:45:30 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 252
+[02-Aug-2017 11:45:30 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 253
+[02-Aug-2017 11:45:30 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 254
+[02-Aug-2017 11:45:30 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 255
+[02-Aug-2017 11:45:30 Europe/Sofia] PHP Fatal error:  Call to undefined function mysqli_field_name() in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 261
+[02-Aug-2017 11:47:49 Europe/Sofia] PHP Fatal error:  Class 'PHPExcel' not found in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 255
+[02-Aug-2017 11:50:06 Europe/Sofia] PHP Warning:  require(/home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Autoloader.php): failed to open stream: No such file or directory in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel.php on line 6
+[02-Aug-2017 11:50:06 Europe/Sofia] PHP Fatal error:  require(): Failed opening required '/home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Autoloader.php' (include_path='.:/usr/local/php5.6/lib/php') in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel.php on line 6
+[02-Aug-2017 11:50:51 Europe/Sofia] PHP Warning:  require(/home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Autoloader.php): failed to open stream: No such file or directory in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel.php on line 6
+[02-Aug-2017 11:50:51 Europe/Sofia] PHP Fatal error:  require(): Failed opening required '/home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Autoloader.php' (include_path='.:/usr/local/php5.6/lib/php') in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel.php on line 6
+[02-Aug-2017 11:50:52 Europe/Sofia] PHP Warning:  require(/home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Autoloader.php): failed to open stream: No such file or directory in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel.php on line 6
+[02-Aug-2017 11:50:52 Europe/Sofia] PHP Fatal error:  require(): Failed opening required '/home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Autoloader.php' (include_path='.:/usr/local/php5.6/lib/php') in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel.php on line 6
+[02-Aug-2017 11:50:54 Europe/Sofia] PHP Warning:  require(/home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Autoloader.php): failed to open stream: No such file or directory in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel.php on line 6
+[02-Aug-2017 11:50:54 Europe/Sofia] PHP Fatal error:  require(): Failed opening required '/home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Autoloader.php' (include_path='.:/usr/local/php5.6/lib/php') in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel.php on line 6
+[02-Aug-2017 11:54:31 Europe/Sofia] PHP Fatal error:  Class 'PHPExcel' not found in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 251
+[02-Aug-2017 11:54:57 Europe/Sofia] PHP Warning:  require(/home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Autoloader.php): failed to open stream: No such file or directory in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel.php on line 6
+[02-Aug-2017 11:54:57 Europe/Sofia] PHP Fatal error:  require(): Failed opening required '/home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Autoloader.php' (include_path='.:/usr/local/php5.6/lib/php') in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel.php on line 6
+[02-Aug-2017 11:55:18 Europe/Sofia] PHP Warning:  require(/home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Autoloader.php): failed to open stream: No such file or directory in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel.php on line 6
+[02-Aug-2017 11:55:18 Europe/Sofia] PHP Fatal error:  require(): Failed opening required '/home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Autoloader.php' (include_path='.:/usr/local/php5.6/lib/php') in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel.php on line 6
+[02-Aug-2017 11:55:19 Europe/Sofia] PHP Warning:  require(/home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Autoloader.php): failed to open stream: No such file or directory in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel.php on line 6
+[02-Aug-2017 11:55:19 Europe/Sofia] PHP Fatal error:  require(): Failed opening required '/home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Autoloader.php' (include_path='.:/usr/local/php5.6/lib/php') in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel.php on line 6
+[02-Aug-2017 11:56:24 Europe/Sofia] PHP Fatal error:  Cannot redeclare class PHPExcel_Autoloader in /home/bgprvhqk/public_html/apps/sting/sting/admin/Autoloader.php on line 39
+[02-Aug-2017 11:56:25 Europe/Sofia] PHP Fatal error:  Cannot redeclare class PHPExcel_Autoloader in /home/bgprvhqk/public_html/apps/sting/sting/admin/Autoloader.php on line 39
+[02-Aug-2017 11:56:25 Europe/Sofia] PHP Fatal error:  Cannot redeclare class PHPExcel_Autoloader in /home/bgprvhqk/public_html/apps/sting/sting/admin/Autoloader.php on line 39
+[02-Aug-2017 11:58:21 Europe/Sofia] PHP Fatal error:  Cannot redeclare class PHPExcel_Autoloader in /home/bgprvhqk/public_html/apps/sting/sting/admin/Autoloader.php on line 39
+[02-Aug-2017 11:58:22 Europe/Sofia] PHP Fatal error:  Cannot redeclare class PHPExcel_Autoloader in /home/bgprvhqk/public_html/apps/sting/sting/admin/Autoloader.php on line 39
+[02-Aug-2017 11:58:25 Europe/Sofia] PHP Fatal error:  Cannot redeclare class PHPExcel_Autoloader in /home/bgprvhqk/public_html/apps/sting/sting/admin/Autoloader.php on line 39
+[02-Aug-2017 11:58:35 Europe/Sofia] PHP Fatal error:  Cannot redeclare class PHPExcel_Autoloader in /home/bgprvhqk/public_html/apps/sting/sting/admin/Autoloader.php on line 39
+[02-Aug-2017 12:54:32 Europe/Sofia] PHP Fatal error:  Cannot redeclare class PHPExcel_Autoloader in /home/bgprvhqk/public_html/apps/sting/sting/admin/Autoloader.php on line 39
+[02-Aug-2017 12:54:46 Europe/Sofia] PHP Fatal error:  Cannot redeclare class PHPExcel_Autoloader in /home/bgprvhqk/public_html/apps/sting/sting/admin/Autoloader.php on line 39
+[02-Aug-2017 12:55:02 Europe/Sofia] PHP Fatal error:  Cannot redeclare class PHPExcel_Autoloader in /home/bgprvhqk/public_html/apps/sting/sting/admin/Autoloader.php on line 39
+[02-Aug-2017 12:55:14 Europe/Sofia] PHP Fatal error:  Cannot redeclare class PHPExcel_Autoloader in /home/bgprvhqk/public_html/apps/sting/sting/admin/Autoloader.php on line 39
+[02-Aug-2017 14:02:04 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 276
+[02-Aug-2017 14:02:58 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 276
+[02-Aug-2017 14:02:58 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 276
+[02-Aug-2017 14:03:45 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 276
+[02-Aug-2017 14:03:45 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 276
+[02-Aug-2017 14:04:51 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 276
+[02-Aug-2017 14:04:51 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 276
+[02-Aug-2017 14:05:14 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 276
+[02-Aug-2017 14:09:12 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 278
+[02-Aug-2017 14:12:43 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 278
+[02-Aug-2017 14:12:45 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 278
+[02-Aug-2017 14:17:19 Europe/Sofia] PHP Parse error:  syntax error, unexpected '*' in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 310
+[02-Aug-2017 14:25:27 Europe/Sofia] PHP Parse error:  syntax error, unexpected '*' in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 316
+[02-Aug-2017 14:25:37 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 290
+[02-Aug-2017 14:26:10 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 288
+[02-Aug-2017 14:28:10 Europe/Sofia] PHP Parse error:  syntax error, unexpected '*' in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 313
+[02-Aug-2017 14:30:03 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 288
+[02-Aug-2017 14:55:16 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/brands.php on line 238
+[02-Aug-2017 14:55:16 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/brands.php on line 254
+[02-Aug-2017 14:55:16 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/brands.php on line 270
+[02-Aug-2017 14:55:16 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/brands.php on line 287
+[02-Aug-2017 14:55:16 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/brands.php on line 303
+[02-Aug-2017 16:44:51 Europe/Sofia] PHP Warning:  explode(): Empty delimiter in /home/bgprvhqk/public_html/apps/sting/sting/admin/zoneedit_save.php on line 20
+[02-Aug-2017 16:46:32 Europe/Sofia] PHP Warning:  explode(): Empty delimiter in /home/bgprvhqk/public_html/apps/sting/sting/admin/zoneedit_save.php on line 20
+[02-Aug-2017 16:47:12 Europe/Sofia] PHP Warning:  explode(): Empty delimiter in /home/bgprvhqk/public_html/apps/sting/sting/admin/zoneedit_save.php on line 20
+[02-Aug-2017 16:47:23 Europe/Sofia] PHP Warning:  explode(): Empty delimiter in /home/bgprvhqk/public_html/apps/sting/sting/admin/zoneedit_save.php on line 20
+[02-Aug-2017 16:47:26 Europe/Sofia] PHP Warning:  explode(): Empty delimiter in /home/bgprvhqk/public_html/apps/sting/sting/admin/zoneedit_save.php on line 20
+[02-Aug-2017 16:47:32 Europe/Sofia] PHP Warning:  explode(): Empty delimiter in /home/bgprvhqk/public_html/apps/sting/sting/admin/zoneedit_save.php on line 20
+[02-Aug-2017 18:26:14 Europe/Sofia] PHP Warning:  mysqli_query(): Empty query in /home/bgprvhqk/public_html/apps/sting/sting/admin/zoneedit_save.php on line 183
+[02-Aug-2017 18:27:15 Europe/Sofia] PHP Warning:  mysqli_query(): Empty query in /home/bgprvhqk/public_html/apps/sting/sting/admin/zoneedit_save.php on line 183
+[02-Aug-2017 18:28:39 Europe/Sofia] PHP Warning:  mysqli_query(): Empty query in /home/bgprvhqk/public_html/apps/sting/sting/admin/zoneedit_save.php on line 183
+[02-Aug-2017 18:28:50 Europe/Sofia] PHP Parse error:  syntax error, unexpected '/' in /home/bgprvhqk/public_html/apps/sting/sting/admin/zoneedit_save.php on line 172
+[02-Aug-2017 18:30:49 Europe/Sofia] PHP Warning:  mysqli_query(): Empty query in /home/bgprvhqk/public_html/apps/sting/sting/admin/zoneedit_save.php on line 183
+[02-Aug-2017 18:31:43 Europe/Sofia] PHP Warning:  mysqli_query(): Empty query in /home/bgprvhqk/public_html/apps/sting/sting/admin/zoneedit_save.php on line 183
+[02-Aug-2017 18:33:54 Europe/Sofia] PHP Warning:  mysqli_query(): Empty query in /home/bgprvhqk/public_html/apps/sting/sting/admin/zoneedit_save.php on line 183
+[03-Aug-2017 08:11:58 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 357
+[03-Aug-2017 08:11:59 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/zones.php on line 357
+[03-Aug-2017 08:53:29 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/brands.php on line 276
+[03-Aug-2017 08:53:30 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/brands.php on line 276
+[03-Aug-2017 11:46:16 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 31
+[03-Aug-2017 12:01:22 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 29
+[03-Aug-2017 12:01:22 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 36
+[03-Aug-2017 12:01:22 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 88
+[03-Aug-2017 12:01:22 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 89
+[03-Aug-2017 12:01:39 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 29
+[03-Aug-2017 12:01:39 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 36
+[03-Aug-2017 12:01:39 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 88
+[03-Aug-2017 12:01:39 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 89
+[03-Aug-2017 12:01:39 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 29
+[03-Aug-2017 12:01:39 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 36
+[03-Aug-2017 12:01:39 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 88
+[03-Aug-2017 12:01:39 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 89
+[03-Aug-2017 12:02:06 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 29
+[03-Aug-2017 12:02:06 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 36
+[03-Aug-2017 12:02:06 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 88
+[03-Aug-2017 12:02:06 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 89
+[03-Aug-2017 12:02:06 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 29
+[03-Aug-2017 12:02:06 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 36
+[03-Aug-2017 12:02:06 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 88
+[03-Aug-2017 12:02:06 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 89
+[03-Aug-2017 12:02:06 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 29
+[03-Aug-2017 12:02:06 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 36
+[03-Aug-2017 12:02:06 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 88
+[03-Aug-2017 12:02:06 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_table.php on line 89
+[03-Aug-2017 14:11:12 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_spravka.php on line 52
+[03-Aug-2017 14:11:27 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_spravka.php on line 52
+[03-Aug-2017 14:11:32 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_spravka.php on line 52
+[03-Aug-2017 14:12:07 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_spravka.php on line 52
+[03-Aug-2017 14:12:57 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_spravka.php on line 52
+[03-Aug-2017 14:49:28 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/show_spravka.php on line 54
+[03-Aug-2017 15:07:33 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PHPExcel_Exception' with message 'Invalid cell coordinate BLAAA1' in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Worksheet.php(1218): PHPExcel_Cell::coordinateFromString('BLAAA1')
+#1 /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Worksheet.php(1178): PHPExcel_Worksheet->createNewCell('BLAAA1')
+#2 /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Worksheet.php(1085): PHPExcel_Worksheet->getCell('BLAAA1')
+#3 /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php(295): PHPExcel_Worksheet->setCellValue('blaaa1', '2017-06-21')
+#4 {main}
+  thrown in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Cell.php on line 594
+[03-Aug-2017 15:08:30 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PHPExcel_Exception' with message 'Invalid cell coordinate BLAAA1' in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Worksheet.php(1218): PHPExcel_Cell::coordinateFromString('BLAAA1')
+#1 /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Worksheet.php(1178): PHPExcel_Worksheet->createNewCell('BLAAA1')
+#2 /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Worksheet.php(1085): PHPExcel_Worksheet->getCell('BLAAA1')
+#3 /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php(295): PHPExcel_Worksheet->setCellValue('blaaa1', '2017-08-03')
+#4 {main}
+  thrown in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Cell.php on line 594
+[03-Aug-2017 15:10:27 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 329
+[03-Aug-2017 15:10:27 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 332
+[03-Aug-2017 15:10:27 Europe/Sofia] PHP Warning:  ZipArchive::close(): Failure to create temporary file: No such file or directory in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Writer/Excel2007.php on line 388
+[03-Aug-2017 15:10:27 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PHPExcel_Writer_Exception' with message 'Could not close zip file C://desktop.' in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Writer/Excel2007.php:389
+Stack trace:
+#0 /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php(335): PHPExcel_Writer_Excel2007->save('C://desktop')
+#1 {main}
+  thrown in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Writer/Excel2007.php on line 389
+[03-Aug-2017 15:10:40 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 329
+[03-Aug-2017 15:10:40 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 332
+[03-Aug-2017 15:10:40 Europe/Sofia] PHP Warning:  ZipArchive::close(): Failure to create temporary file: No such file or directory in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Writer/Excel2007.php on line 388
+[03-Aug-2017 15:10:40 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PHPExcel_Writer_Exception' with message 'Could not close zip file C://desktop.' in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Writer/Excel2007.php:389
+Stack trace:
+#0 /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php(335): PHPExcel_Writer_Excel2007->save('C://desktop')
+#1 {main}
+  thrown in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Writer/Excel2007.php on line 389
+[03-Aug-2017 15:10:41 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 329
+[03-Aug-2017 15:10:41 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 332
+[03-Aug-2017 15:10:41 Europe/Sofia] PHP Warning:  ZipArchive::close(): Failure to create temporary file: No such file or directory in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Writer/Excel2007.php on line 388
+[03-Aug-2017 15:10:41 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PHPExcel_Writer_Exception' with message 'Could not close zip file C://desktop.' in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Writer/Excel2007.php:389
+Stack trace:
+#0 /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php(335): PHPExcel_Writer_Excel2007->save('C://desktop')
+#1 {main}
+  thrown in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Writer/Excel2007.php on line 389
+[03-Aug-2017 15:10:41 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 329
+[03-Aug-2017 15:10:41 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 332
+[03-Aug-2017 15:10:41 Europe/Sofia] PHP Warning:  ZipArchive::close(): Failure to create temporary file: No such file or directory in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Writer/Excel2007.php on line 388
+[03-Aug-2017 15:10:41 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PHPExcel_Writer_Exception' with message 'Could not close zip file C://desktop.' in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Writer/Excel2007.php:389
+Stack trace:
+#0 /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php(335): PHPExcel_Writer_Excel2007->save('C://desktop')
+#1 {main}
+  thrown in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Writer/Excel2007.php on line 389
+[03-Aug-2017 15:10:41 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 329
+[03-Aug-2017 15:10:41 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 332
+[03-Aug-2017 15:10:41 Europe/Sofia] PHP Warning:  ZipArchive::close(): Failure to create temporary file: No such file or directory in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Writer/Excel2007.php on line 388
+[03-Aug-2017 15:10:41 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PHPExcel_Writer_Exception' with message 'Could not close zip file C://desktop.' in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Writer/Excel2007.php:389
+Stack trace:
+#0 /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php(335): PHPExcel_Writer_Excel2007->save('C://desktop')
+#1 {main}
+  thrown in /home/bgprvhqk/public_html/apps/sting/sting/admin/PHPExcel/Writer/Excel2007.php on line 389
+[03-Aug-2017 15:11:20 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 329
+[03-Aug-2017 15:11:20 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 332
+[03-Aug-2017 15:12:42 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 328
+[03-Aug-2017 15:12:42 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 330
+[03-Aug-2017 15:12:42 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 332
+[03-Aug-2017 15:12:42 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 334
+[03-Aug-2017 15:12:42 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 336
+[03-Aug-2017 15:12:42 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 338
+[03-Aug-2017 15:12:42 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 340
+[03-Aug-2017 15:18:36 Europe/Sofia] PHP Fatal error:  Using $this when not in object context in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 296
+[03-Aug-2017 15:20:32 Europe/Sofia] PHP Fatal error:  Using $this when not in object context in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 296
+[03-Aug-2017 15:22:07 Europe/Sofia] PHP Fatal error:  Using $this when not in object context in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 296
+[03-Aug-2017 15:22:16 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 326
+[03-Aug-2017 15:22:16 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 327
+[03-Aug-2017 15:22:16 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 328
+[03-Aug-2017 15:22:50 Europe/Sofia] PHP Fatal error:  Using $this when not in object context in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 296
+[03-Aug-2017 15:23:08 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 326
+[03-Aug-2017 15:23:08 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 327
+[03-Aug-2017 15:23:08 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 328
+[03-Aug-2017 15:26:17 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 324
+[03-Aug-2017 15:26:17 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 325
+[03-Aug-2017 15:26:17 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php:144) in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 326
+[03-Aug-2017 16:04:13 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:04:13 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:04:14 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:04:14 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:04:32 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:04:32 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:04:32 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:04:32 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:04:32 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:04:32 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:04:42 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:04:42 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:04:43 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:04:43 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:05:11 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:05:11 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:05:11 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:05:11 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:05:11 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:05:11 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:05:25 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:05:25 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:05:25 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:05:25 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:05:27 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:05:27 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:05:27 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:05:27 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:05:29 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:05:29 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:05:30 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:05:30 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:06:30 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:06:30 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:06:30 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:06:30 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:06:30 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:06:30 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:06:31 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:06:31 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:06:34 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 49
+[03-Aug-2017 16:06:34 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/pharmacy.php on line 275
+[03-Aug-2017 16:39:24 Europe/Sofia] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/check_pharm.php on line 11
+[03-Aug-2017 16:39:24 Europe/Sofia] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/check_pharm.php on line 12
+[03-Aug-2017 16:39:24 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/check_pharm.php on line 35
+[03-Aug-2017 16:40:27 Europe/Sofia] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/check_pharm.php on line 11
+[03-Aug-2017 16:40:27 Europe/Sofia] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/check_pharm.php on line 12
+[03-Aug-2017 16:40:27 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/check_pharm.php on line 44
+[03-Aug-2017 16:49:55 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/check_pharm.php on line 47
+[03-Aug-2017 18:27:51 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 298
+[03-Aug-2017 18:27:52 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 298
+[03-Aug-2017 18:28:14 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 298
+[03-Aug-2017 18:28:14 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 298
+[03-Aug-2017 18:28:18 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 298
+[03-Aug-2017 18:28:18 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 298
+[03-Aug-2017 18:28:18 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 298
+[03-Aug-2017 18:28:18 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 298
+[03-Aug-2017 18:28:36 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 298
+[03-Aug-2017 18:28:36 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 298
+[03-Aug-2017 18:28:37 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 298
+[04-Aug-2017 08:17:53 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 253
+[04-Aug-2017 08:17:54 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 253
+[04-Aug-2017 08:18:22 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 253
+[04-Aug-2017 08:23:15 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'AND' (T_LOGICAL_AND) in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 47
+[04-Aug-2017 08:23:15 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'AND' (T_LOGICAL_AND) in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 47
+[04-Aug-2017 08:30:34 Europe/Sofia] PHP Parse error:  syntax error, unexpected '*' in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 274
+[04-Aug-2017 08:30:34 Europe/Sofia] PHP Parse error:  syntax error, unexpected '*' in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 274
+[04-Aug-2017 08:38:16 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 248
+[04-Aug-2017 08:38:17 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 248
+[04-Aug-2017 08:38:17 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 248
+[04-Aug-2017 08:38:22 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 248
+[04-Aug-2017 08:38:22 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 248
+[04-Aug-2017 08:38:23 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 248
+[04-Aug-2017 08:40:08 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 248
+[04-Aug-2017 08:40:09 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 248
+[04-Aug-2017 08:40:09 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 248
+[04-Aug-2017 08:42:10 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'ORDER' (T_STRING) in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 48
+[04-Aug-2017 08:55:22 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 245
+[04-Aug-2017 08:55:22 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 245
+[04-Aug-2017 08:58:21 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 248
+[04-Aug-2017 08:58:22 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 248
+[04-Aug-2017 08:58:22 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 248
+[04-Aug-2017 09:04:10 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 248
+[04-Aug-2017 09:04:17 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 248
+[04-Aug-2017 09:15:50 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 251
+[04-Aug-2017 09:15:51 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 251
+[04-Aug-2017 09:16:34 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 251
+[04-Aug-2017 09:32:57 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 287
+[04-Aug-2017 09:33:47 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 272
+[04-Aug-2017 09:33:47 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 287
+[04-Aug-2017 09:33:48 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 272
+[04-Aug-2017 09:33:48 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 287
+[04-Aug-2017 09:34:02 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 287
+[04-Aug-2017 09:34:03 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 287
+[04-Aug-2017 09:34:03 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 287
+[04-Aug-2017 09:34:54 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 288
+[04-Aug-2017 09:34:55 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 288
+[04-Aug-2017 09:34:55 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 288
+[04-Aug-2017 09:34:55 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 288
+[04-Aug-2017 09:34:56 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 288
+[04-Aug-2017 09:34:56 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 288
+[04-Aug-2017 09:34:56 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 288
+[04-Aug-2017 09:34:56 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 288
+[04-Aug-2017 09:34:57 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 288
+[04-Aug-2017 09:43:58 Europe/Sofia] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/spravki2.php on line 383
+[04-Aug-2017 09:58:46 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 376
+[04-Aug-2017 09:59:48 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 376
+[04-Aug-2017 09:59:52 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 376
+[04-Aug-2017 10:03:36 Europe/Sofia] PHP Parse error:  syntax error, unexpected ')' in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 371
+[04-Aug-2017 10:33:47 Europe/Sofia] PHP Warning:  mysqli_query(): Empty query in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 459
+[04-Aug-2017 10:33:47 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 471
+[04-Aug-2017 10:34:01 Europe/Sofia] PHP Warning:  mysqli_query(): Empty query in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 459
+[04-Aug-2017 10:34:01 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 471
+[04-Aug-2017 10:35:05 Europe/Sofia] PHP Warning:  mysqli_query(): Empty query in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 459
+[04-Aug-2017 10:35:05 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 471
+[04-Aug-2017 10:35:30 Europe/Sofia] PHP Warning:  mysqli_query(): Empty query in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 459
+[04-Aug-2017 10:35:30 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 471
+[04-Aug-2017 10:37:03 Europe/Sofia] PHP Warning:  mysqli_query(): Empty query in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 460
+[04-Aug-2017 10:37:03 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 472
+[04-Aug-2017 10:54:54 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/export.php on line 585
+[04-Aug-2017 17:33:01 Europe/Sofia] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 2
+[04-Aug-2017 17:33:14 Europe/Sofia] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 2
+[04-Aug-2017 17:34:08 Europe/Sofia] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 2
+[04-Aug-2017 17:55:14 Europe/Sofia] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 2
+[04-Aug-2017 17:55:25 Europe/Sofia] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 2
+[04-Aug-2017 17:55:34 Europe/Sofia] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 2
+[04-Aug-2017 17:57:38 Europe/Sofia] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 2
+[04-Aug-2017 17:57:48 Europe/Sofia] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 2
+[04-Aug-2017 17:57:57 Europe/Sofia] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 2
+[04-Aug-2017 18:02:42 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 741
+[04-Aug-2017 18:02:42 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 741
+[04-Aug-2017 18:02:49 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 741
+[04-Aug-2017 18:02:49 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 741
+[04-Aug-2017 18:02:50 Europe/Sofia] PHP Parse error:  syntax error, unexpected end of file in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 741
+[04-Aug-2017 18:02:53 Europe/Sofia] PHP Parse error:  syntax error, unexpected '<' in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 292
+[04-Aug-2017 18:02:54 Europe/Sofia] PHP Parse error:  syntax error, unexpected '<' in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 292
+[04-Aug-2017 18:02:54 Europe/Sofia] PHP Parse error:  syntax error, unexpected '<' in /home/bgprvhqk/public_html/apps/sting/sting/admin/edit_profile.php on line 292
+[05-Aug-2017 19:00:37 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 286
+[05-Aug-2017 19:03:53 Europe/Sofia] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharmacy.php on line 286
+[05-Aug-2017 19:22:54 Europe/Sofia] PHP Parse error:  syntax error, unexpected '{' in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharm.php on line 50
+[05-Aug-2017 19:23:57 Europe/Sofia] PHP Parse error:  syntax error, unexpected ''as'' (T_CONSTANT_ENCAPSED_STRING) in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharm.php on line 25
+[05-Aug-2017 19:55:55 Europe/Sofia] PHP Parse error:  syntax error, unexpected '"<br/>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/bgprvhqk/public_html/apps/sting/sting/admin/add_pharm.php on line 26
+[06-Aug-2017 20:55:49 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/findState.php on line 19
+[07-Aug-2017 07:51:39 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:53:40 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:53:40 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:53:41 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:53:41 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:53:41 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:53:41 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:53:42 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:53:42 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:53:43 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:53:43 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:53:46 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:54:57 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:54:57 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:54:58 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:54:58 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:54:59 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:54:59 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:54:59 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:55:03 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:56:57 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:56:57 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:56:57 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:56:58 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:57:36 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:57:37 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:57:40 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:58:31 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:58:32 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:58:32 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:58:32 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:58:33 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15
+[07-Aug-2017 07:58:33 Europe/Sofia] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bgprvhqk_vivach'@'localhost' (using password: YES) in /home/cookbgco/public_html/atb-rental.eu/demo/admin/edit_profile.php on line 15

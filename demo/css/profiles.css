@@ -1,0 +1,185 @@
+
+body {
+    overflow-x: hidden;
+
+}
+
+.sting-logo {
+    float: left;
+    margin: 0;
+    padding: 0;
+    padding-left: 3%;
+}
+
+.gsk-logo {
+    float: right;
+    margin: 0;
+    padding: 0;
+    padding-right: 3%;
+}
+
+ul.navbar-right li a{
+    font-family: 'RobotoRegular';
+    text-transform: uppercase;
+}
+
+nav.navbar {
+    background: transparent;
+    border: none;
+}
+
+
+#wrapper2 {
+    background: #f7f7f7;
+    width: 35%;
+    height: 1690px;
+    position: absolute;
+}
+
+#avatars {
+    position: absolute;
+    top: 27%;
+    left: 37%;
+
+}
+
+.name span {
+    color: #4f4f4f;
+}
+
+
+.asd:nth-child(even) ul{
+    float: right;
+    margin-right: -55%;
+    border-right: 1px solid #295aa5;
+}
+
+
+.asd:nth-child(odd) ul{
+    float: left;
+    margin-left: 15%;
+    border-right: 1px solid #295aa5; 
+}
+
+
+
+ul.users {
+    width: 110%;
+    display: flex;
+    align-items: center;
+}
+
+ul.users li {
+
+}
+
+ul.users li img {
+    margin-left: 10%; 
+}
+
+ul.users li {
+    float: left;
+    width: 50%;    
+}
+
+ul.users li.name {
+    margin-right: 0%;
+
+}
+
+ul.users li.name span h4{
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.asd:nth-child(even) ul.users li img#avatars {
+    position: absolute;
+    top: 20%;
+    left: 85%;
+}
+
+.asd:nth-child(odd) ul.users li img#avatars {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+
+.col-lg-3 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+
+}
+
+
+.footer {
+    background: #f25e22; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #f25e22 , #ffd231); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f25e22 , #ffd231); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f25e22 , #ffd231); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f25e22 , #ffd231); /* Standard syntax (must be last) */
+}
+
+@media (min-width: 480px) and  (max-width: 860px) {
+    #wrapper2 {
+        display: none;
+    }
+
+    .col-lg-4 {
+        border: none;
+    }
+
+    .asd:nth-child(even){
+        margin: 0;
+        margin: 0;
+    }
+
+    .asd:nth-child(odd){
+        margin: 0;
+        margin: 0;
+    }
+
+    .asd:nth-child(even) ul{
+        float: left;
+    }
+
+
+    .asd:nth-child(odd) ul{
+        float: left;
+    }
+
+    #avatars {
+         display: none;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    #wrapper2 {
+        display: none;
+    }
+
+    .asd:nth-child(even){
+        margin: 0;
+        margin: 0;
+    }
+
+    .asd:nth-child(odd){
+        margin: 0;
+        margin: 0;
+    }
+
+    .asd:nth-child(even) ul{
+        float: left;
+    }
+
+
+    .asd:nth-child(odd) ul{
+        float: left;
+    }
+
+    #avatars {
+         display: none;
+    }
+}

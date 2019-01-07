@@ -1,0 +1,106 @@
+.weekTitle {
+	padding: 40px;
+}
+
+.weekTitle span {
+	font-family: 'RobotoRegular';
+	color: #4f4f4f;
+	font-size: 26px;
+	line-height: 90%
+}
+
+.weekUser {
+	font-family: 'RobotoRegular';
+	float: right;
+	bottom: 0;
+	margin-right: 40px;
+	text-align: right;
+	line-height: 90%;
+}
+
+.weekUser h4 {
+	margin-top: -5px; 
+}
+
+.weekUser span {
+	display: block;
+	color: #f57a26;
+	font-size: 22px;
+	padding-top: 10px;
+}
+
+.weekUser article {
+	
+
+}
+
+.from_date, .to_date {
+	border: none;
+	background: transparent;
+	font-size: 15px;
+	padding:10px;
+	margin-top: 20px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #4f4f4f;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #4f4f4f;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #4f4f4f;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #4f4f4f;
+}
+
+ul.gallery {
+	width: 100%;
+}
+
+ul.gallery li {
+	display: block;
+	width: 100%;
+
+}
+
+ul.gallery li.name {
+	text-align: left;
+}
+
+ul.labels  {
+	width: 100%;
+	margin-top: -30px;
+}
+
+ul.labels li {
+	 display: inline;
+	 padding-left: 10px;
+	 font-size: 15px;
+}
+
+ul.labels li span {
+	text-transform: lowercase;
+	color: #f57a26;
+}
+
+.thumbnail {
+    height: 200px;
+}
+
+.thumbnail img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+button.btnSubmit {
+	font-size: 16px;
+	color: #f57723;
+}
+
+.cc {
+	border: 1px solid #f57723;
+	padding: 2px 15px 2px 15px;
+	border-radius: 20px 
+}
