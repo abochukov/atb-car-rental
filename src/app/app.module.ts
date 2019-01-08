@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { Routes, RouterModule } from '@angular/router';
+import { Routing } from './app.routes';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -22,7 +23,8 @@ import { MenuComponent } from './menu/menu.component';
     MenuComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    Routing
   ],
   providers: [],
   bootstrap: [AppComponent]
