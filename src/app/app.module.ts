@@ -3,11 +3,23 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ConditionsComponent } from './conditions/conditions.component';
+import { BookingComponent } from './booking/booking.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { MenuComponent } from './menu/menu.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    AboutUsComponent,
+    ConditionsComponent,
+    BookingComponent,
+    ContactsComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule
