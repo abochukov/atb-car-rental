@@ -6,6 +6,7 @@ import { BookingComponent } from './booking/booking.component';
 import { ContactsComponent } from './contacts/contacts.component';
 
 const appRoutes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'about-us', component: AboutUsComponent },
   { path: 'conditions', component: ConditionsComponent },
