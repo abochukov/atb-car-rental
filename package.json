@@ -9,5 +9,8 @@
     "body-parser": "~1.5.2",
     "express": "~4.0.0",
     "mongoose": "^5.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
   }
 }
