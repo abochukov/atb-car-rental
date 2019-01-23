@@ -4,3 +4,14 @@ html, body {
   margin: 0;
   background: #eee;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 50px 0;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
