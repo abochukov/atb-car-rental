@@ -1,6 +1,10 @@
 {
-  "name": "Atb Rental API",
+  "name": "atb-rental",
   "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ."
+  },
   "dependencies": {
     "body-parser": "~1.5.2",
     "ejs": "~1.0.0",
