@@ -6,8 +6,8 @@
     "start": "nodemon ."
   },
   "dependencies": {
-    "body-parser": "~1.5.2",
-    "express": "~4.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
     "mongoose": "^5.4.5"
   },
   "devDependencies": {
