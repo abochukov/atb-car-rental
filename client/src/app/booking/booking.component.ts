@@ -8,7 +8,7 @@ import { DataService } from '../api/data.service';
 })
 export class BookingComponent implements OnInit {
 
-  public result: any;
+  public cars: any;
 
   constructor(private dataService: DataService) { }
 
@@ -18,8 +18,8 @@ export class BookingComponent implements OnInit {
 
   fetchCars() {
     this.dataService.getAllCars().subscribe((cars) => {
-      this.result = cars;
-      console.log(this.result);
+      this.cars = cars;
+      console.log(this.cars);
     });
   }
 

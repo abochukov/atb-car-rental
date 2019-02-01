@@ -1,8 +1,6 @@
-<p>
-  booking works!
-</p>
-
-<div *ngFor="let r of result">
-    {{r.make}}
-    {{ r.model }}
+<div class="container">
+  <div class="cars-content" *ngFor="let car of cars">
+      {{car.make}}
+      {{ car.model }}
+  </div>
 </div>
