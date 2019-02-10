@@ -1,6 +1,7 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var cors = require('cors');
+var bodyParser = require('body-parser');
 const app = express();
 
 const carRouter = require('./routes/car.js');
@@ -16,4 +17,4 @@ app.use('/api/cars', carRouter);
 
 app.listen(5656, () => {
   console.log('http://localhost:5656')
-})
+});
