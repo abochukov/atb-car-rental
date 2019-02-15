@@ -31,12 +31,12 @@ const upload = multer({storage: storage,
 // const upload = multer({storage: storage});
 const router = express.Router();
 
-router.use(bodyParser.json()).post('/', upload.single('avatar'), (req, res) => {
+router.use(bodyParser.json()).post('/', upload.single('imgSrc'), (req, res) => {
    // const car = new CarModel(req.body);
    let car = new CarModel ({
      make: req.body.make,
      model: req.body.model,
-     avatar: req.body.avatar
+     imgSrc: req.file.path
      // file: req.body.file
    });
    car.save();
@@ -44,18 +44,43 @@ router.use(bodyParser.json()).post('/', upload.single('avatar'), (req, res) => {
 });
 
 
-
-// router.post('/', (req, res, next) => {
-//   const car = new CarModel({
-//     make: req.body.make,
-//     model: req.body.model
-//   });
-//   car.save();
-//   res.status(201).json({
-//     message: 'HandlingPOST request',
-//     createdCar: car
+// router.get('/', (req, res) => {
+//   CarModel.find({}, (err, cars) => {
+//     res.json(cars);
 //   })
-// })
+// });
+
+router.get('/', (req, res, next) => {
+  CarModel.find()
+  .select('make model imgSrc')
+  .exec()
+  .then(docs => {
+    const response = {
+      // count: docs.length,
+      cars: docs.map(doc => {
+          return {
+            make: doc.make,
+            model: doc.model,
+            imgSrc: doc.imgSrc,
+            _id: doc._id
+          };
+      })
+    };
+    res.status(200).json(response);
+  }).catch(err => {
+    console.log(err);
+    res.status(500).json({
+      error: err
+    });
+  });
+});
+
+router.get('/:carId', (req, res) => {
+  CarModel.findById(req.params.carId).then(car => {
+    res.send(car);
+  })
+
+})
 
 // router.post('/', (req, res) => {
 //   const car = new CarModel({
@@ -68,58 +93,5 @@ router.use(bodyParser.json()).post('/', upload.single('avatar'), (req, res) => {
 //     });
 //   })
 // });
-
-
-router.get('/', (req, res) => {
-  CarModel.find({}, (err, cars) => {
-    res.json(cars);
-  })
-});
-
-// router.use(bodyParser.raw({ type: 'image' })).post('/image', (req, res) => {
-//   console.log(req.files);
-//   res.sendStatus(200);
-// });
-
-// router.post('/', (req, res) => {
-// let car = new CarModel(req.body);
-//   car.save();
-//   rest.status(201).send(car);
-//
-// })
-
-// router.post('/save', (req, res) => {
-//   res.json('create new record');
-//   // let newCar = new CarModel({
-//   //   make: 'Audi',
-//   //   model: 'A2'
-//   // });
-//   // newCar.save()
-//   //   .then(newCar => {
-//   //     res.status(200).json({'newCar': 'Added successfully'});
-//   //   })
-//   //   .catch(err => {
-//   //     res.status(400).send('Failed creating new record');
-//   //   })
-// });
-
-// router.get('/:id', (req, res) => {
-//   CarModel.findById(req.params.id, (err, cars) => {
-//     res.json(cars);
-//   })
-// });
-
-// router.post('/save', (req, res) => {
-//   CarModel.create({
-//     make: 'Audi',
-//     model: 'A1',
-//     year: '2000',
-//     miliage: '2000'
-//   }, (err, cars) => {
-//     res.json(cars);
-//   })
-// });
-
-
 
 module.exports = router;
