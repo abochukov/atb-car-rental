@@ -2,5 +2,7 @@
   <div class="cars-content" *ngFor="let car of cars">
       {{car.make}}
       {{ car.model }}
+      <br/>
+      <img *ngIf="car.imgSrc" src="http://localhost:5656/{{ car.imgSrc }}" width="300">
   </div>
 </div>

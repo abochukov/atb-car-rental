@@ -18,7 +18,7 @@ export class BookingComponent implements OnInit {
 
   fetchCars() {
     this.dataService.getAllCars().subscribe((cars) => {
-      this.cars = cars;
+      this.cars = cars.cars;
       console.log(this.cars);
     });
   }
