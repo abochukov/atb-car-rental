@@ -6,7 +6,12 @@ const CarModel = mongoose.model('astras', new Schema({
   model: { type: String },
   year: { type: String },
   miliage: { type: String },
-  imgSrc: { type: String }
-}))
+  doors: { type: String },
+  aircondition: { type: String },
+  imgSrc: { type: String },
+  carid: { type: String },
+  from_date: { type: String },
+  to_date: { type: String }
+}));
 
 module.exports = CarModel;
