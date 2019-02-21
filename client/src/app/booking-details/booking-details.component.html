@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="cars-content-details">
+  <!-- <div class="cars-content-details">
       <img *ngIf="car.imgSrc" src="http://localhost:5656/{{ car.imgSrc }}">
       <ul>
         <li>{{ car.make }}</li>
@@ -8,5 +8,17 @@
         <li>{{ car.doors }}</li>
         <li>{{ car.aircondition }}</li>
       </ul>
-  </div>
+  </div> -->
+  <form [formGroup]="bookingForm" (ngSubmit)="onSubmit()">
+    <label for="firstname">First Name</label>
+    <input type="text" class="form-control" formControlName="firstname" id="frstname">
+
+    <label for="lastname">Last Name</label>
+    <input type="text" class="form-control" formControlName="lastname" id="lastname">
+
+    <label for="email">Email</label>
+    <input type="text" class="form-control" formControlName="email" id="email">
+
+    <button type="submit" class="btn btn-primary" [disabled]="!bookingForm.valid">Send</button>
+  </form>
 </div>
