@@ -23,3 +23,4 @@ const BookingModel = mongoose.model('booking', new Schema({
 }))
 
 module.exports = CarModel;
+module.export = BookingModel;

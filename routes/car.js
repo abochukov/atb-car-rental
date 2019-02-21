@@ -1,6 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 const CarModel = require('../models/car');
+const BookingModel = require('../models/car');
 var multer = require('multer');
 
 const storage = multer.diskStorage({
@@ -28,7 +29,6 @@ const upload = multer({storage: storage,
   // fileFilter: fileFilter
 })
 
-// const upload = multer({storage: storage});
 const router = express.Router();
 
 router.use(bodyParser.json()).post('/', upload.single('imgSrc'), (req, res) => {
@@ -40,10 +40,6 @@ router.use(bodyParser.json()).post('/', upload.single('imgSrc'), (req, res) => {
      doors: req.body.doors,
      aircondition: req.body.aircondition,
      imgSrc: req.file.path,
-     carid: req.body.carid,
-     from_date: req.body.from_date,
-     to_date: req.body.to_date
-     // file: req.body.file
    });
    car.save();
    res.status(201).send(car);
@@ -122,7 +118,7 @@ router.get('/', (req, res) => {
         error: err
       });
     });
-})
+});
 
 // WORKS
 // router.get('/:id', (req, res) => {
