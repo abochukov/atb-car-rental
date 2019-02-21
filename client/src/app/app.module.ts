@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { Routing } from './app.routes';
 import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { DataService } from './api/data.service';
 
@@ -30,7 +31,8 @@ import { BookingDetailsComponent } from './booking-details/booking-details.compo
   imports: [
     BrowserModule,
     Routing,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [DataService],
   bootstrap: [AppComponent]
