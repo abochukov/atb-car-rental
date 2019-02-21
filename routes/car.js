@@ -96,7 +96,7 @@ router.get('/', (req, res) => {
   CarModel.find({
     make: 'Opel'
   })
-  .select('make model year doors aircondition imgSrc carid from_date to_date')
+  .select('make model year doors aircondition imgSrc')
   // .where('make', 'Honda')
   .limit(10)
   .exec()
@@ -111,9 +111,6 @@ router.get('/', (req, res) => {
             doors: doc.doors,
             aircondition: doc.aircondition,
             imgSrc: doc.imgSrc,
-            carid: doc.carid,
-            from_date: doc.from_date,
-            to_date: doc.to_date,
             _id: doc._id
           };
         })
