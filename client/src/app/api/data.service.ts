@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
+import { Car } from '../car';
+
 import { Observable } from 'rxjs/Observable';
 
 @Injectable()
@@ -13,6 +15,10 @@ export class DataService {
 
   getAllCars(): Observable<any> {
     return this.http.get(`${this.uri}/api/cars`);
+  }
+
+  getCarsById(id): Observable<Car> {
+    return this.http.get<Car>(`${this.uri}/api/cars/${id}`);
   }
 
   setNewCar(make, model) {
