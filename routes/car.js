@@ -36,7 +36,13 @@ router.use(bodyParser.json()).post('/', upload.single('imgSrc'), (req, res) => {
    let car = new CarModel ({
      make: req.body.make,
      model: req.body.model,
-     imgSrc: req.file.path
+     year: req.body.year,
+     doors: req.body.doors,
+     aircondition: req.body.aircondition,
+     imgSrc: req.file.path,
+     carid: req.body.carid,
+     from_date: req.body.from_date,
+     to_date: req.body.to_date
      // file: req.body.file
    });
    car.save();
@@ -44,54 +50,89 @@ router.use(bodyParser.json()).post('/', upload.single('imgSrc'), (req, res) => {
 });
 
 
-// router.get('/', (req, res) => {
-//   CarModel.find({}, (err, cars) => {
-//     res.json(cars);
-//   })
+// router.get('/', (req, res, next) => {
+//   CarModel.find()
+//     .select('make model year doors aircondition imgSrc')
+//   .exec()
+//   .then(docs => {
+//     const response = {
+//       // count: docs.length,
+//       cars: docs.map(doc => {
+//           return {
+//             make: doc.make,
+//             model: doc.model,
+//             year: doc.year,
+//             doors: doc.doors,
+//             aircondition: doc.aircondition,
+//             imgSrc: doc.imgSrc,
+//             _id: doc._id
+//           };
+//       })
+//     };
+//     res.status(200).json(response);
+//   }).catch(err => {
+//     console.log(err);
+//     res.status(500).json({
+//       error: err
+//     });
+//   });
 // });
 
-router.get('/', (req, res, next) => {
-  CarModel.find()
-  .select('make model imgSrc')
+router.get('/:id', (req, res, next) => {
+  const id = req.params.id;
+  CarModel.findById(id)
+  .select('make model year doors aircondition imgSrc')
   .exec()
-  .then(docs => {
-    const response = {
-      // count: docs.length,
-      cars: docs.map(doc => {
+  .then(doc => {
+    res.status(200).json(doc);
+  })
+  .catch(err => {
+    console.log(err);
+    res.status(500).json({error: err});
+  })
+});
+
+router.get('/', (req, res) => {
+  CarModel.find({
+    make: 'Opel'
+  })
+  .select('make model year doors aircondition imgSrc carid from_date to_date')
+  // .where('make', 'Honda')
+  .limit(10)
+  .exec()
+    .then(docs => {
+      const response = {
+        // count: docs.length,
+        cars: docs.map(doc => {
           return {
             make: doc.make,
             model: doc.model,
+            year: doc.year,
+            doors: doc.doors,
+            aircondition: doc.aircondition,
             imgSrc: doc.imgSrc,
+            carid: doc.carid,
+            from_date: doc.from_date,
+            to_date: doc.to_date,
             _id: doc._id
           };
-      })
-    };
-    res.status(200).json(response);
-  }).catch(err => {
-    console.log(err);
-    res.status(500).json({
-      error: err
+        })
+      };
+      res.status(200).json(response);
+    }).catch(err => {
+      console.log(err);
+      res.status(500).json({
+        error: err
+      });
     });
-  });
-});
-
-router.get('/:carId', (req, res) => {
-  CarModel.findById(req.params.carId).then(car => {
-    res.send(car);
-  })
-
 })
 
-// router.post('/', (req, res) => {
-//   const car = new CarModel({
-//       make: req.body.make,
-//       model: req.body.model
-//   });
-//   car.save().then(result => {
-//     res.status(201).json({
-//       message: 'Creadet car successfully'
-//     });
+// WORKS
+// router.get('/:id', (req, res) => {
+//   CarModel.findById(req.params.id).then(car => {
+//     res.send(car);
 //   })
-// });
+// })
+
 
 module.exports = router;
