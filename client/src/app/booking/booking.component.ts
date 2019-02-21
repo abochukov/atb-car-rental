@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
+
+import { Car } from '../car';
+
 import { DataService } from '../api/data.service';
 
 @Component({
@@ -8,9 +12,9 @@ import { DataService } from '../api/data.service';
 })
 export class BookingComponent implements OnInit {
 
-  public cars: any;
+  public cars;
 
-  constructor(private dataService: DataService) { }
+  constructor(private dataService: DataService, private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit() {
     this.fetchCars();
@@ -19,8 +23,11 @@ export class BookingComponent implements OnInit {
   fetchCars() {
     this.dataService.getAllCars().subscribe((cars) => {
       this.cars = cars.cars;
-      console.log(this.cars);
     });
+  }
+
+  showDetails(id) {
+    this.router.navigate(['booking', id]);
   }
 
 }

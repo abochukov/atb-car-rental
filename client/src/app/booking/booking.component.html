@@ -1,8 +1,13 @@
 <div class="container">
   <div class="cars-content" *ngFor="let car of cars">
-      {{car.make}}
-      {{ car.model }}
-      <br/>
-      <img *ngIf="car.imgSrc" src="http://localhost:5656/{{ car.imgSrc }}" width="300">
+      <img *ngIf="car.imgSrc" src="http://localhost:5656/{{ car.imgSrc }}" (click)="showDetails(car._id)" width="300">
+      <ul>
+        <li>{{ car._id }}</li>
+        <li>{{ car.make }}</li>
+        <li>{{ car.model }}</li>
+        <li>{{ car.year }}</li>
+        <li>{{ car.doors }}</li>
+        <li>{{ car.aircondition }}</li>
+      </ul>
   </div>
 </div>

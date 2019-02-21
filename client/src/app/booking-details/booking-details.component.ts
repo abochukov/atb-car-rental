@@ -12,24 +12,13 @@ import { DataService } from '../api/data.service';
 })
 export class BookingDetailsComponent implements OnInit {
 
-  public id: string;
-  public cars;
+  public car: Car;
 
   constructor(private dataService: DataService, private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.getCarsByIds(this.id);
-  }
-
-  getCarsByIds(id) {
-    this.route.params.subscribe(params => {
-      this.id = params.id;
-      console.log(this.id);
-      this.dataService.getCarsById(this.id).subscribe(res => {
-        this.cars = res;
-        this.cars = Array.of(this.cars);
-        console.log(this.cars);
-      });
+    this.dataService.getCarsById(this.route.snapshot.params.id).subscribe(res => {
+      this.car = res;
     });
   }
 

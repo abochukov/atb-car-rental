@@ -1,8 +1,7 @@
 <div class="container">
-  <div class="cars-content" *ngFor="let car of cars">
-      <img *ngIf="car.imgSrc" src="http://localhost:5656/{{ car.imgSrc }}" width="500">
+  <div class="cars-content-details">
+      <img *ngIf="car.imgSrc" src="http://localhost:5656/{{ car.imgSrc }}">
       <ul>
-        <li>{{ car._id }}</li>
         <li>{{ car.make }}</li>
         <li>{{ car.model }}</li>
         <li>{{ car.year }}</li>

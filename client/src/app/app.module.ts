@@ -13,6 +13,7 @@ import { ConditionsComponent } from './conditions/conditions.component';
 import { BookingComponent } from './booking/booking.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { MenuComponent } from './menu/menu.component';
+import { BookingDetailsComponent } from './booking-details/booking-details.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { MenuComponent } from './menu/menu.component';
     ConditionsComponent,
     BookingComponent,
     ContactsComponent,
-    MenuComponent
+    MenuComponent,
+    BookingDetailsComponent
   ],
   imports: [
     BrowserModule,

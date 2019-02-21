@@ -1,4 +1,7 @@
 .cars-content {
-  width: 25%;
-  border: 1px solid green;
+  justify-content: center;
+  flex: 1 0 21%;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid #999;
 }
