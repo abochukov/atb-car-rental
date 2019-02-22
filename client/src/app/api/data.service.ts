@@ -28,4 +28,10 @@ export class DataService {
       };
       return this.http.post(`${this.uri}/api/cars`, test);
   }
+
+  public carBooking(bookingData) {
+    this.http.post(`${this.uri}/api/booking`, bookingData).subscribe(data => {
+      console.log(data);
+    });
+  }
 }
