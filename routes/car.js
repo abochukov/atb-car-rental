@@ -1,7 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 const CarModel = require('../models/car');
-const BookingModel = require('../models/car');
 var multer = require('multer');
 
 const storage = multer.diskStorage({

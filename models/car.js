@@ -11,16 +11,4 @@ const CarModel = mongoose.model('cars', new Schema({
   imgSrc: { type: String },
 }));
 
-const BookingModel = mongoose.model('booking', new Schema({
-  carid: { type: String },
-  customerName: { type: String },
-  customerFamily:{ type: String },
-  customerEmail: { type: String },
-  customerCountry: { type: String },
-  customerAddress: { type: String },
-  from_date: { type: String },
-  to_date: { type: String }
-}))
-
 module.exports = CarModel;
-module.export = BookingModel;
