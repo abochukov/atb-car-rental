@@ -7,12 +7,14 @@ var multer = require('multer');
 const app = express();
 
 const carRouter = require('./routes/car.js');
+const bookingRouter = require('./routes/booking.js');
 
 const db = mongoose.connect('mongodb://localhost:27017/rental', { useNewUrlParser: true });
 
 // app.use('/api/*', cors());
 app.use('/uploads', express.static('uploads'));
-app.use('/api/cars', carRouter);
+app.use('/api/nasko', carRouter);
+app.use('/api/booking', bookingRouter);
 app.use('/', express.static(path.join(__dirname, '/client/dist')));
 
 app.get('*', function(req, res) {
