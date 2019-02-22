@@ -13,6 +13,7 @@ import { DataService } from '../api/data.service';
 })
 export class BookingDetailsComponent implements OnInit {
 
+  public id: string;
   public car: Car;
   bookingForm: FormGroup;
   public formSubmitAttempt: boolean;
@@ -27,6 +28,7 @@ export class BookingDetailsComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    this.id = this.route.snapshot.params.id;
     this.dataService.getCarsById(this.route.snapshot.params.id).subscribe(res => {
       this.car = res;
     });
@@ -41,6 +43,7 @@ export class BookingDetailsComponent implements OnInit {
       firstname: [null, [Validators.required]],
       lastname: [null, [Validators.required]],
       email: [null, [Validators.required, Validators.email]],
+      carId: this.id,
     });
   }
 
@@ -49,6 +52,5 @@ export class BookingDetailsComponent implements OnInit {
     if (this.bookingForm.valid) {
       this.dataService.carBooking(this.bookingForm.value);
     }
-
   }
 }
