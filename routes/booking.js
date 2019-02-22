@@ -11,7 +11,8 @@ router.use(bodyParser.json()).post('/', (req, res) => {
   let booking = new BookingModel({
     firstname: req.body.firstname,
     lastname: req.body.lastname,
-    email: req.body.email
+    email: req.body.email,
+    carId: req.body.carId
   });
   booking.save();
   res.status(201).send(booking);
