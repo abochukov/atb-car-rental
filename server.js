@@ -13,7 +13,7 @@ const db = mongoose.connect('mongodb://localhost:27017/rental', { useNewUrlParse
 
 // app.use('/api/*', cors());
 app.use('/uploads', express.static('uploads'));
-app.use('/api/nasko', carRouter);
+app.use('/api/cars', carRouter);
 app.use('/api/booking', bookingRouter);
 app.use('/', express.static(path.join(__dirname, '/client/dist')));
 
