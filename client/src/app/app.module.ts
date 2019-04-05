@@ -21,6 +21,7 @@ import { BookingComponent } from './booking/booking.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { MenuComponent } from './menu/menu.component';
 import { BookingDetailsComponent } from './booking-details/booking-details.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { BookingDetailsComponent } from './booking-details/booking-details.compo
     ContactsComponent,
     MenuComponent,
     BookingDetailsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
