@@ -12,9 +12,13 @@ html, body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
-  margin: 50px 0;
+  align-items: center;
+  margin-top: 50px;
   color: #333;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+}
+
+h2 {
+  margin-bottom: 30px;
 }
