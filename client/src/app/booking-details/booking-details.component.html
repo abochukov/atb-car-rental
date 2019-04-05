@@ -1,5 +1,6 @@
 <div class="container">
-  <!-- <div class="cars-content-details">
+  <div class="cars-content-details">
+    <div class="main-car-information" *ngIf="car">
       <img *ngIf="car.imgSrc" src="http://localhost:5656/{{ car.imgSrc }}">
       <ul>
         <li>{{ car.make }}</li>
@@ -8,17 +9,36 @@
         <li>{{ car.doors }}</li>
         <li>{{ car.aircondition }}</li>
       </ul>
-  </div> -->
-  <form [formGroup]="bookingForm" (ngSubmit)="onSubmit()">
-    <label for="firstname">First Name</label>
-    <input type="text" class="form-control" formControlName="firstname" id="frstname">
+    </div>
 
-    <label for="lastname">Last Name</label>
-    <input type="text" class="form-control" formControlName="lastname" id="lastname">
+    <button (click)="showForm()" class="btn btn-primary">Book this car</button>
 
-    <label for="email">Email</label>
-    <input type="text" class="form-control" formControlName="email" id="email">
+    <div class="main-reservation-information" *ngIf="showBookingForm">
+      <form [formGroup]="bookingForm" (ngSubmit)="onSubmit()" class="booking-form">
+        <label for="firstname">First Name</label>
+        <input type="text" class="form-control" formControlName="firstname" id="frstname">
 
-    <button type="submit" class="btn btn-primary" [disabled]="!bookingForm.valid">Send</button>
-  </form>
+        <label for="lastname">Last Name</label>
+        <input type="text" class="form-control" formControlName="lastname" id="lastname">
+
+        <label for="email">Email</label>
+        <input type="text" class="form-control" formControlName="email" id="email">
+
+        <label for="bookedDates">From Date</label>
+        <input type="text"
+            class="form-control"
+            formControlName="bookedDates"
+            id="bookedDates"
+            ngbDatepicker #d="ngbDatepicker"
+            >
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary calendar" (click)="d.toggle()" type="button"></button>
+        </div>
+        <!-- <label for="to_date">To Date</label>
+        <input type="text" class="form-control" formControlName="toDate" id="to_date" bsDatepicker placement="top"> -->
+        <br/>
+        <button type="submit" class="btn btn-primary" [disabled]="!bookingForm.valid">Send</button>
+      </form>
+    </div>
+  </div>
 </div>

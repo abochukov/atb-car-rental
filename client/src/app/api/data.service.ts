@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 
 import { Car } from '../car';
 
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 
 @Injectable()
 export class DataService {
@@ -33,5 +33,9 @@ export class DataService {
     this.http.post(`${this.uri}/api/booking`, bookingData).subscribe(data => {
       console.log(data);
     });
+  }
+
+  getBookingDate(id): Observable<any> {
+    return this.http.get(`${this.uri}/api/booking/${id}`);
   }
 }

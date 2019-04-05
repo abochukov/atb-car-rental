@@ -1,9 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 import { Routing } from './app.routes';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
+
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbDatepickerModule } from '@ng-bootstrap/ng-bootstrap';
+// import { TooltipModule } from 'ngx-bootstrap/tooltip';
+// import { ModalModule } from 'ngx-bootstrap/modal';
 
 import { DataService } from './api/data.service';
 
@@ -26,13 +32,15 @@ import { BookingDetailsComponent } from './booking-details/booking-details.compo
     BookingComponent,
     ContactsComponent,
     MenuComponent,
-    BookingDetailsComponent
+    BookingDetailsComponent,
   ],
   imports: [
     BrowserModule,
     Routing,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgbModule,
+    NgbDatepickerModule.forRoot()
   ],
   providers: [DataService],
   bootstrap: [AppComponent]

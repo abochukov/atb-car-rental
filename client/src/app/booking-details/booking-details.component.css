@@ -1,13 +1,31 @@
 .cars-content-details {
+
+}
+
+.main-car-information {
   display: flex;
+  padding: 10px;
+  margin: 10px 0;
+  width: 700px;
+  border: 1px solid #666;
+  border-radius: 5px;
+}
+
+.main-reservation-information {
+  margin: 10px 0;
   width: 700px;
   border: 1px solid #333;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
 }
 
 img {
   width: 300px;
   object-fit: contain;
-  border: 1px solid green;
   align-self: flex-start;
 }
 

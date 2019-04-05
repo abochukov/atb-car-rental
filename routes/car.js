@@ -44,35 +44,6 @@ router.use(bodyParser.json()).post('/', upload.single('imgSrc'), (req, res) => {
    res.status(201).send(car);
 });
 
-
-// router.get('/', (req, res, next) => {
-//   CarModel.find()
-//     .select('make model year doors aircondition imgSrc')
-//   .exec()
-//   .then(docs => {
-//     const response = {
-//       // count: docs.length,
-//       cars: docs.map(doc => {
-//           return {
-//             make: doc.make,
-//             model: doc.model,
-//             year: doc.year,
-//             doors: doc.doors,
-//             aircondition: doc.aircondition,
-//             imgSrc: doc.imgSrc,
-//             _id: doc._id
-//           };
-//       })
-//     };
-//     res.status(200).json(response);
-//   }).catch(err => {
-//     console.log(err);
-//     res.status(500).json({
-//       error: err
-//     });
-//   });
-// });
-
 router.get('/:id', (req, res, next) => {
   const id = req.params.id;
   CarModel.findById(id)
