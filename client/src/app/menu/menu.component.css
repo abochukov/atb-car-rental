@@ -35,6 +35,10 @@ ul.main-menu li {
   outline: none;
 }
 
+ul.main-menu li:hover {
+  color: #FAEE0D;
+}
+
 
 ul.languages {
   display: flex;
@@ -51,4 +55,8 @@ ul.languages li {
   font-size: 14px;
   margin-right: 15px;
   color: #fff;
+}
+
+.active {
+  color: #FAEE0D !important;
 }
