@@ -1,5 +1,31 @@
 .copyright {
+  justify-content: flex-start;
+  padding-left: 20px;
   color: #fff;
   font-size: 14px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-menu ul {
+  display: flex;
+  justify-content:center;
+  list-style-type: none;
+  padding:0;
+  margin:0;
+}
+
+.footer ul li {
+  padding-right: 20px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.footer ul li:hover {
+  color: #FAEE0D;
 }
