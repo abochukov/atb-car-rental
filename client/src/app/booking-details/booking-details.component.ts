@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { FormBuilder, FormControl, FormGroup, Validators, AbstractControl } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators, AbstractControl } from '@angular/forms';
 import { Car } from '../car';
-import { HttpClient } from '@angular/common/http';
+
+import {NgbDate, NgbCalendar} from '@ng-bootstrap/ng-bootstrap';
+// import { HttpClient } from '@angular/common/http';
 
 import { DataService } from '../api/data.service';
 
@@ -19,9 +21,19 @@ export class BookingDetailsComponent implements OnInit {
   public formSubmitAttempt: boolean;
   public showBookingForm: boolean;
   public bsRangeValue: any;
-  private storedDates: string;
-  private isFree: boolean;
-  public disabledDates;
+  public showDatePicker = false;
+  public fromDate: any;
+  public toDate: any;
+  // private fromDate: string;
+  public storedDates: any;
+  // private isFree: boolean;
+  public disabledDates: any;
+
+
+  displayMonths = 2;
+  navigation = 'select';
+  showWeekNumbers = false;
+  outsideDays = 'visible';
 
   uri = 'http://localhost:5656';
 
@@ -29,8 +41,12 @@ export class BookingDetailsComponent implements OnInit {
     private dataService: DataService,
     private route: ActivatedRoute,
     private formBuilder: FormBuilder,
-    private http: HttpClient
-  ) { }
+    // calendar: NgbCalendar
+    // private http: HttpClient
+  ) {
+    // this.fromDate = calendar.getToday();
+    // this.toDate = calendar.getToday();
+  }
 
   ngOnInit() {
     this.id = this.route.snapshot.params.id;
@@ -39,7 +55,10 @@ export class BookingDetailsComponent implements OnInit {
     });
 
     this.booking();
-    this.getFreeCar();
+    setTimeout(() => {
+      this.getFreeCar();
+    }, 2000);
+    // this.getFreeCar();
   }
 
   public booking() {
@@ -48,18 +67,21 @@ export class BookingDetailsComponent implements OnInit {
       lastname: [null, [Validators.required]],
       email: [null, [Validators.required, Validators.email]],
       carId: this.id,
-      bookedDates: [null],
+      fromDate: [this.fromDate],
+      toDate: [this.toDate]
     });
   }
+
+
   // TRANSFORM DATES
-  formatDate() {
-    const customerFromDate = this.bsRangeValue[0];
-    const formattedFromDate = customerFromDate.getDate() + '-' + (customerFromDate.getMonth() + 1) + '-' + customerFromDate.getFullYear();
-    const customerToDate = this.bsRangeValue[1];
-    const formattedToDate = customerToDate.getDate() + '-' + (customerToDate.getMonth() + 1) + '-' + customerToDate.getFullYear();
-    console.log(formattedFromDate);
-    console.log(formattedToDate);
-  }
+  // formatDate() {
+  //   const customerFromDate = this.bsRangeValue[0];
+  //   const formattedFromDate = customerFromDate.getDate() + '-' + (customerFromDate.getMonth() + 1) + '-' + customerFromDate.getFullYear();
+  //   const customerToDate = this.bsRangeValue[1];
+  //   const formattedToDate = customerToDate.getDate() + '-' + (customerToDate.getMonth() + 1) + '-' + customerToDate.getFullYear();
+  //   console.log(formattedFromDate);
+  //   console.log(formattedToDate);
+  // }
 
 
   getFreeCar() {
@@ -67,12 +89,13 @@ export class BookingDetailsComponent implements OnInit {
     this.dataService.getBookingDate(this.route.snapshot.params.id).subscribe(bookings => {
       bookings.map(booking => {
         this.storedDates = booking.bookedDates;
+        console.log(this.storedDates);
         // transfrom incoming date and disable in calendar
-        const storedFromDate = new Date(this.storedDates.split(',')[0]);
-        const formattedStoredFromDate = storedFromDate.getDate() + '-' + (storedFromDate.getMonth() + 1) + '-' + storedFromDate.getFullYear();
-
-        const storedToDate = new Date(this.storedDates.split(',')[1]);
-        const formattedStoredToDate = storedToDate.getDate() + '-' + (storedToDate.getMonth() + 1) + '-' + storedToDate.getFullYear();
+        // const storedFromDate = new Date(this.storedDates.split(',')[0]);
+        // const formattedStoredFromDate = storedFromDate.getDate() + '-' + (storedFromDate.getMonth() + 1) + '-' + storedFromDate.getFullYear();
+        //
+        // const storedToDate = new Date(this.storedDates.split(',')[1]);
+        // const formattedStoredToDate = storedToDate.getDate() + '-' + (storedToDate.getMonth() + 1) + '-' + storedToDate.getFullYear();
 
         this.disabledDates = [
           // new Date(formattedStoredFromDate),
@@ -86,11 +109,14 @@ export class BookingDetailsComponent implements OnInit {
 
   onSubmit() {
     this.formSubmitAttempt = true;
-    this.formatDate();
-    // console.log(this.bookingForm.value);
+    // this.formatDate();
+    const frmD = this.bookingForm.value.fromDate;
+    console.log(Object.values(frmD));
+    console.log(this.bookingForm.value);
     // if (this.bookingForm.valid) {
     //   this.dataService.carBooking(this.bookingForm.value);
     // }
+    this.getFreeCar();
   }
 
   showForm() {

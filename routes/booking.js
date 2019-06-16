@@ -13,7 +13,9 @@ router.use(bodyParser.json()).post('/', (req, res) => {
     lastname: req.body.lastname,
     email: req.body.email,
     carId: req.body.carId,
-    bookedDates: req.body.bookedDates
+    bookedDates: req.body.bookedDates,
+    fromDate: req.body.fromDate,
+    toDate: req.body.toDate
   });
   booking.save()
     .then(booking => {

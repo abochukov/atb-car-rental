@@ -8,6 +8,7 @@ const app = express();
 
 const carRouter = require('./routes/car.js');
 const bookingRouter = require('./routes/booking.js');
+const languageRouter = require('./routes/language.js');
 
 const db = mongoose.connect('mongodb://localhost:27017/rental', { useNewUrlParser: true });
 
@@ -15,6 +16,7 @@ const db = mongoose.connect('mongodb://localhost:27017/rental', { useNewUrlParse
 app.use('/uploads', express.static('uploads'));
 app.use('/api/cars', carRouter);
 app.use('/api/booking', bookingRouter);
+app.use('/api/language', languageRouter);
 app.use('/', express.static(path.join(__dirname, '/client/dist')));
 
 app.get('*', function(req, res) {

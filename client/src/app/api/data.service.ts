@@ -31,11 +31,16 @@ export class DataService {
 
   public carBooking(bookingData) {
     this.http.post(`${this.uri}/api/booking`, bookingData).subscribe(data => {
-      console.log(data);
+      // console.log(data);
     });
   }
 
   getBookingDate(id): Observable<any> {
     return this.http.get(`${this.uri}/api/booking/${id}`);
+  }
+
+  changeLanguage(language: any) {
+    // console.log(language);
+    return this.http.post(`${this.uri}/api/language`, {language: language});
   }
 }

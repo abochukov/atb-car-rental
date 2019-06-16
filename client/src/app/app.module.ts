@@ -8,6 +8,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbDatepickerModule } from '@ng-bootstrap/ng-bootstrap';
+// import { BsDatepickerModule } from 'ngx-bootstrap';
+// import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 // import { TooltipModule } from 'ngx-bootstrap/tooltip';
 // import { ModalModule } from 'ngx-bootstrap/modal';
 
@@ -22,6 +24,7 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { MenuComponent } from './menu/menu.component';
 import { BookingDetailsComponent } from './booking-details/booking-details.component';
 import { FooterComponent } from './footer/footer.component';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 
 
 @NgModule({
@@ -42,7 +45,8 @@ import { FooterComponent } from './footer/footer.component';
     HttpClientModule,
     ReactiveFormsModule,
     NgbModule,
-    NgbDatepickerModule.forRoot()
+    NgbDatepickerModule.forRoot(),
+    BsDatepickerModule.forRoot()
   ],
   providers: [DataService],
   bootstrap: [AppComponent]
