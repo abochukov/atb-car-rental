@@ -3,7 +3,9 @@ import { ActivatedRoute } from '@angular/router';
 import { FormBuilder, FormGroup, Validators, AbstractControl } from '@angular/forms';
 import { Car } from '../car';
 
-import {NgbDate, NgbCalendar} from '@ng-bootstrap/ng-bootstrap';
+
+
+// import {NgbDate, NgbCalendar} from '@ng-bootstrap/ng-bootstrap';
 // import { HttpClient } from '@angular/common/http';
 
 import { DataService } from '../api/data.service';
@@ -55,9 +57,6 @@ export class BookingDetailsComponent implements OnInit {
     });
 
     this.booking();
-    setTimeout(() => {
-      this.getFreeCar();
-    }, 2000);
     // this.getFreeCar();
   }
 
@@ -67,8 +66,9 @@ export class BookingDetailsComponent implements OnInit {
       lastname: [null, [Validators.required]],
       email: [null, [Validators.required, Validators.email]],
       carId: this.id,
-      fromDate: [this.fromDate],
-      toDate: [this.toDate]
+      nasko: [null]
+      // dateRange: [this.fromDate],
+      // toDate: [this.toDate]
     });
   }
 
@@ -110,13 +110,13 @@ export class BookingDetailsComponent implements OnInit {
   onSubmit() {
     this.formSubmitAttempt = true;
     // this.formatDate();
-    const frmD = this.bookingForm.value.fromDate;
-    console.log(Object.values(frmD));
+    // const frmD = this.bookingForm.value.fromDate;
+    // console.log(Object.values(frmD));
     console.log(this.bookingForm.value);
     // if (this.bookingForm.valid) {
     //   this.dataService.carBooking(this.bookingForm.value);
     // }
-    this.getFreeCar();
+    // this.getFreeCar();
   }
 
   showForm() {
