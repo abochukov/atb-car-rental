@@ -66,7 +66,7 @@ export class BookingDetailsComponent implements OnInit {
       lastname: [null, [Validators.required]],
       email: [null, [Validators.required, Validators.email]],
       carId: this.id,
-      nasko: [null]
+      bsRangeValue: [null]
       // dateRange: [this.fromDate],
       // toDate: [this.toDate]
     });
@@ -74,14 +74,15 @@ export class BookingDetailsComponent implements OnInit {
 
 
   // TRANSFORM DATES
-  // formatDate() {
-  //   const customerFromDate = this.bsRangeValue[0];
-  //   const formattedFromDate = customerFromDate.getDate() + '-' + (customerFromDate.getMonth() + 1) + '-' + customerFromDate.getFullYear();
-  //   const customerToDate = this.bsRangeValue[1];
-  //   const formattedToDate = customerToDate.getDate() + '-' + (customerToDate.getMonth() + 1) + '-' + customerToDate.getFullYear();
-  //   console.log(formattedFromDate);
-  //   console.log(formattedToDate);
-  // }
+  formatDate() {
+    const customerFromDate = this.bookingForm.value.bsRangeValue[0];
+    console.log(customerFromDate);
+    const formattedFromDate = customerFromDate.getDate() + '-' + (customerFromDate.getMonth() + 1) + '-' + customerFromDate.getFullYear();
+    const customerToDate = this.bookingForm.value.bsRangeValue[1];
+    const formattedToDate = customerToDate.getDate() + '-' + (customerToDate.getMonth() + 1) + '-' + customerToDate.getFullYear();
+    console.log(formattedFromDate);
+    console.log(formattedToDate);
+  }
 
 
   getFreeCar() {
@@ -109,7 +110,7 @@ export class BookingDetailsComponent implements OnInit {
 
   onSubmit() {
     this.formSubmitAttempt = true;
-    // this.formatDate();
+    this.formatDate();
     // const frmD = this.bookingForm.value.fromDate;
     // console.log(Object.values(frmD));
     console.log(this.bookingForm.value);
