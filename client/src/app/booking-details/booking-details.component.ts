@@ -66,7 +66,7 @@ export class BookingDetailsComponent implements OnInit {
       lastname: [null, [Validators.required]],
       email: [null, [Validators.required, Validators.email]],
       carId: this.id,
-      bsRangeValue: [null]
+      bookedDates: [null]
       // dateRange: [this.fromDate],
       // toDate: [this.toDate]
     });
@@ -75,13 +75,13 @@ export class BookingDetailsComponent implements OnInit {
 
   // TRANSFORM DATES
   formatDate() {
-    const customerFromDate = this.bookingForm.value.bsRangeValue[0];
-    console.log(customerFromDate);
+    const customerFromDate = this.bookingForm.value.bookedDates[0];
+    // console.log(customerFromDate);
     const formattedFromDate = customerFromDate.getDate() + '-' + (customerFromDate.getMonth() + 1) + '-' + customerFromDate.getFullYear();
-    const customerToDate = this.bookingForm.value.bsRangeValue[1];
+    const customerToDate = this.bookingForm.value.bookedDates[1];
     const formattedToDate = customerToDate.getDate() + '-' + (customerToDate.getMonth() + 1) + '-' + customerToDate.getFullYear();
-    console.log(formattedFromDate);
-    console.log(formattedToDate);
+    // console.log(formattedFromDate);
+    // console.log(formattedToDate);
   }
 
 
@@ -92,18 +92,21 @@ export class BookingDetailsComponent implements OnInit {
         this.storedDates = booking.bookedDates;
         console.log(this.storedDates);
         // transfrom incoming date and disable in calendar
-        // const storedFromDate = new Date(this.storedDates.split(',')[0]);
-        // const formattedStoredFromDate = storedFromDate.getDate() + '-' + (storedFromDate.getMonth() + 1) + '-' + storedFromDate.getFullYear();
+        const storedFromDate = new Date(this.storedDates.split(',')[0]);
+        const formattedStoredFromDate = storedFromDate.getDate() + '-' + (storedFromDate.getMonth() + 1) + '-' + storedFromDate.getFullYear();
         //
-        // const storedToDate = new Date(this.storedDates.split(',')[1]);
-        // const formattedStoredToDate = storedToDate.getDate() + '-' + (storedToDate.getMonth() + 1) + '-' + storedToDate.getFullYear();
+        const storedToDate = new Date(this.storedDates.split(',')[1]);
+        const formattedStoredToDate = storedToDate.getDate() + '-' + (storedToDate.getMonth() + 1) + '-' + storedToDate.getFullYear();
 
-        this.disabledDates = [
-          // new Date(formattedStoredFromDate),
-          // new Date(formattedStoredToDate)
-          new Date('2019-03-01'),
-          new Date('2019-03-08')
-        ];
+        console.log(formattedStoredFromDate);
+        console.log(formattedStoredToDate);
+
+        // this.disabledDates = [
+        //   // new Date(formattedStoredFromDate),
+        //   // new Date(formattedStoredToDate)
+        //   new Date('2019-03-01'),
+        //   new Date('2019-03-08')
+        // ];
       });
     });
   }
@@ -113,11 +116,11 @@ export class BookingDetailsComponent implements OnInit {
     this.formatDate();
     // const frmD = this.bookingForm.value.fromDate;
     // console.log(Object.values(frmD));
-    console.log(this.bookingForm.value);
+    // console.log(this.bookingForm.value);
     // if (this.bookingForm.valid) {
     //   this.dataService.carBooking(this.bookingForm.value);
     // }
-    // this.getFreeCar();
+    this.getFreeCar();
   }
 
   showForm() {
