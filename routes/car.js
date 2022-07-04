@@ -58,37 +58,38 @@ router.get('/:id', (req, res, next) => {
   })
 });
 
-router.get('/', (req, res) => {
-  CarModel.find({
-    make: 'Opel'
-  })
-  .select('make model year doors aircondition imgSrc')
-  // .where('make', 'Honda')
-  .limit(10)
-  .exec()
-    .then(docs => {
-      const response = {
-        // count: docs.length,
-        cars: docs.map(doc => {
-          return {
-            make: doc.make,
-            model: doc.model,
-            year: doc.year,
-            doors: doc.doors,
-            aircondition: doc.aircondition,
-            imgSrc: doc.imgSrc,
-            _id: doc._id
-          };
-        })
-      };
-      res.status(200).json(response);
-    }).catch(err => {
-      console.log(err);
-      res.status(500).json({
-        error: err
-      });
-    });
-});
+// router.get('/', (req, res) => {
+//   CarModel.find({
+//     make: 'Opel'
+//   })
+//   .select('make model year doors aircondition imgSrc')
+//   // .where('make', 'Honda')
+//   .limit(10)
+//   .exec()
+//     .then(docs => {
+//       const response = {
+//         // count: docs.length,
+//         cars: docs.map(doc => {
+//           return {
+//             make: doc.make,
+//             model: doc.model,
+//             year: doc.year,
+//             doors: doc.doors,
+//             aircondition: doc.aircondition,
+//             imgSrc: doc.imgSrc,
+//             _id: doc._id
+//           };
+//         })
+//       };
+//       console.log(req)
+//       res.status(200).json(response);
+//     }).catch(err => {
+//       console.log(err);
+//       res.status(500).json({
+//         error: err
+//       });
+//     });
+// });
 
 // WORKS
 // router.get('/:id', (req, res) => {
@@ -96,6 +97,12 @@ router.get('/', (req, res) => {
 //     res.send(car);
 //   })
 // })
+
+router.get('/', (req, res) => {
+  CarModel.find().then(car => {
+    res.send(car);
+  })
+})
 
 
 module.exports = router;
